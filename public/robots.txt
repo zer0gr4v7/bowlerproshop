@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /go/
+Disallow: /csp-report
+Disallow: /*?*
+
+Allow: /favicon.png
+Allow: /icons/
+Allow: /brand/
+Allow: /robots.txt
+Allow: /llms.txt
+Allow: /sitemap.xml
+
+Sitemap: https://bowlerproshop.com/sitemap.xml

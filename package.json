@@ -1,0 +1,55 @@
+{
+  "name": "bowlerproshop-hostinger-mvp",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "content:generate": "tsx scripts/generate-content.ts",
+    "build": "npm run content:generate && vite build && npm run prerender:static && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
+    "build:static": "npm run content:generate && vite build",
+    "prerender:static": "tsx scripts/prerender-static-html.ts",
+    "start": "NODE_ENV=production node dist/server.cjs",
+    "preview:prod": "npm run build && NODE_ENV=production PORT=4173 node dist/server.cjs",
+    "pack:hostinger": "npm run clean && npm run build && mkdir -p ../deploy && zip -rq ../deploy/bowlerproshop-hostinger-node.zip . -x 'node_modules/*' '.env' '.DS_Store'",
+    "clean": "rm -rf dist",
+    "lint": "npm run content:generate && tsc --noEmit",
+    "export:wordpress": "npm run content:generate && tsx scripts/export-wordpress-posts.ts",
+    "smoke:prod": "tsx scripts/smoke-production.ts",
+    "secrets:sync": "bash scripts/sync-pages-secrets.sh",
+    "secrets:list": "CLOUDFLARE_ACCOUNT_ID=${CLOUDFLARE_ACCOUNT_ID:-a0c9f7df7dc2450542b92bf137c59cbd} npx wrangler pages secret list --project-name=bowlerproshop-mvp",
+    "verify:prod": "npm run lint && npm run build && npm run smoke:prod && cd .. && node scripts/crawl-bowlerproshop-rendered.mjs",
+    "deploy:preview": "npm run build && CLOUDFLARE_ACCOUNT_ID=${CLOUDFLARE_ACCOUNT_ID:-a0c9f7df7dc2450542b92bf137c59cbd} npx wrangler pages deploy dist --project-name=bowlerproshop-mvp --branch=${ION_DEPLOY_BRANCH:-preview} --commit-dirty=true",
+    "deploy:prod": "npm run build && CLOUDFLARE_ACCOUNT_ID=${CLOUDFLARE_ACCOUNT_ID:-a0c9f7df7dc2450542b92bf137c59cbd} npx wrangler pages deploy dist --project-name=bowlerproshop-mvp --branch=main --commit-dirty=true"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@google/genai": "^1.29.0",
+    "@google/generative-ai": "^0.24.1",
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "clsx": "^2.1.1",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "react-router-dom": "^7.15.1",
+    "tailwind-merge": "^3.6.0",
+    "vite": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "playwright": "^1.60.0",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}
