@@ -11,6 +11,36 @@ import {
   SITE,
   SOCIAL_LINKS,
 } from "../src/lib/site";
+import productsData from "../src/data/products.json";
+
+type ProductMerchant = { name: string; go_path: string };
+type Product = {
+  id: string;
+  name: string;
+  category: string;
+  price_band: string;
+  fit: string;
+  best_for: string;
+  merchants: ProductMerchant[];
+};
+const productModules = (productsData as { modules: Record<string, Product[]> }).modules;
+
+function renderProductModule(slug: string) {
+  const products = productModules[slug];
+  if (!products || products.length === 0) return "";
+  const cards = products
+    .map((p) => {
+      const buttons = p.merchants
+        .map(
+          (m) =>
+            `<a href="${escapeHtml(m.go_path)}" rel="sponsored noopener nofollow">Check ${escapeHtml(m.name)}</a>`,
+        )
+        .join(" ");
+      return `<li data-product-id="${escapeHtml(p.id)}"><p>${escapeHtml(p.category)}</p><h3>${escapeHtml(p.name)}</h3><p>${escapeHtml(p.best_for)}</p><dl><dt>Price band</dt><dd>${escapeHtml(p.price_band)}</dd><dt>Fit</dt><dd>${escapeHtml(p.fit)}</dd></dl>${buttons}</li>`;
+    })
+    .join("");
+  return `<section data-module="product-picks" data-slug="${escapeHtml(slug)}"><h2>Quick picks — compare these</h2><ul>${cards}</ul><p>BowlerProShop earns commissions on qualifying purchases. Recommendations are based on published fit criteria.</p></section>`;
+}
 
 type StaticPage = {
   path: string;
@@ -386,11 +416,16 @@ function bodyForPage(page: StaticPage) {
           .join("")}</ul></section>`
       : "";
 
+    const productHtml = guide.path.startsWith("/best/")
+      ? renderProductModule(guide.path.replace("/best/", ""))
+      : "";
+
     return [
       `<main data-static-crawl-fallback="true">`,
       `<p>${escapeHtml(page.eyebrow)}</p>`,
       `<h1>${escapeHtml(page.h1)}</h1>`,
       `<p>${escapeHtml(guide.intro)}</p>`,
+      productHtml,
       sections,
       faqs,
       sources,

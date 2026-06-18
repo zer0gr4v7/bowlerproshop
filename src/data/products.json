@@ -1,0 +1,131 @@
+{
+  "schema": "ion.catalog/v1",
+  "site": "bowlerproshop",
+  "last_updated": "2026-06-13",
+  "modules": {
+    "bowling-shoes-for-beginners": [
+      {
+        "id": "dexter-ricky-iv",
+        "name": "Dexter Ricky IV",
+        "category": "Beginner athletic shoe",
+        "price_band": "$50-$70",
+        "fit": "Universal slide, fixed sole, athletic feel",
+        "best_for": "First-time buyer upgrading from rentals",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/dexter-ricky-iv" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/dexter-ricky-iv" }
+        ]
+      },
+      {
+        "id": "kr-strikeforce-aviator",
+        "name": "KR Strikeforce Aviator",
+        "category": "Lightweight beginner shoe",
+        "price_band": "$60-$80",
+        "fit": "Universal, lightweight, simple",
+        "best_for": "Comfort-first bowler bowling monthly",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/kr-strikeforce-aviator" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/kr-strikeforce-aviator" }
+        ]
+      },
+      {
+        "id": "3g-kicks",
+        "name": "3G Kicks",
+        "category": "Sneaker-style entry shoe",
+        "price_band": "$50-$70",
+        "fit": "Universal, casual sneaker feel",
+        "best_for": "Bowler who wants a normal-shoe look",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/3g-kicks" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/3g-kicks" }
+        ]
+      }
+    ],
+    "bowling-accessories-for-beginners": [
+      {
+        "id": "bowling-shoe-cover",
+        "name": "Universal Bowling Shoe Cover",
+        "category": "Slide protection",
+        "price_band": "$15-$25",
+        "fit": "Most adult sizes",
+        "best_for": "Protect slide sole from moisture/grit (first accessory to buy)",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/bowling-shoe-cover" }
+        ]
+      },
+      {
+        "id": "storm-reacta-foam-cleaner",
+        "name": "Storm Reacta Foam Ball Cleaner",
+        "category": "Ball cleaner (USBC-approved)",
+        "price_band": "$10-$15",
+        "fit": "All reactive coverstocks",
+        "best_for": "Between-game cleaning to keep reaction predictable",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/storm-reacta-foam" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/storm-reacta-foam" }
+        ]
+      },
+      {
+        "id": "microfiber-bowling-towel",
+        "name": "Microfiber Bowling Towel",
+        "category": "Maintenance",
+        "price_band": "$8-$15",
+        "fit": "Universal",
+        "best_for": "Wipe oil between shots, removes residue",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/microfiber-bowling-towel" }
+        ]
+      }
+    ],
+    "2-ball-bowling-bag": [
+      {
+        "id": "storm-2-ball-roller",
+        "name": "Storm 2-Ball Roller Tournament Bag",
+        "category": "2-ball roller bag",
+        "price_band": "$100-$140",
+        "fit": "Two 16-lb balls + shoes + accessories",
+        "best_for": "League bowler with one spare ball",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/storm-2-ball-roller" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/storm-2-ball-roller" }
+        ]
+      },
+      {
+        "id": "kr-strikeforce-cruiser",
+        "name": "KR Strikeforce Cruiser 2-Ball Roller",
+        "category": "Budget 2-ball roller",
+        "price_band": "$70-$95",
+        "fit": "Two balls + shoes; lighter frame",
+        "best_for": "Casual league or weekend tournament travel",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/kr-cruiser-2-ball" }
+        ]
+      }
+    ],
+    "bowling-ball-cleaner": [
+      {
+        "id": "storm-reacta-foam-cleaner",
+        "name": "Storm Reacta Foam Ball Cleaner",
+        "category": "USBC-approved during competition",
+        "price_band": "$10-$15",
+        "fit": "All reactive coverstocks",
+        "best_for": "Between-game cleaning",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/storm-reacta-foam" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/storm-reacta-foam" }
+        ]
+      },
+      {
+        "id": "motiv-power-gel-clean",
+        "name": "Motiv Power Gel Clean",
+        "category": "Gel cleaner",
+        "price_band": "$12-$18",
+        "fit": "Reactive solids/pearls",
+        "best_for": "Deeper post-session clean off the lane",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/motiv-power-gel" }
+        ]
+      }
+    ]
+  }
+}

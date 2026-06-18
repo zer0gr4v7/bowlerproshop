@@ -4,12 +4,13 @@ import { trackPageView } from "../lib/analytics";
 
 const GTM_ID = import.meta.env.VITE_GTM_ID || "";
 const GA4_ID = import.meta.env.VITE_GA4_ID || "";
+const CLARITY_ID = import.meta.env.VITE_CLARITY_ID || "";
 
 export default function AnalyticsTags() {
   const location = useLocation();
 
   useEffect(() => {
-    if (!GTM_ID && !GA4_ID) return;
+    if (!GTM_ID && !GA4_ID && !CLARITY_ID) return;
 
     const trackedWindow = window as Window & {
       dataLayer?: Array<Record<string, unknown>>;
@@ -39,6 +40,14 @@ export default function AnalyticsTags() {
       };
       trackedWindow.gtag("js", new Date());
       trackedWindow.gtag("config", GA4_ID, { send_page_view: false });
+    }
+
+    if (CLARITY_ID && !document.querySelector(`script[data-clarity-id="${CLARITY_ID}"]`)) {
+      const script = document.createElement("script");
+      script.async = true;
+      script.dataset.clarityId = CLARITY_ID;
+      script.innerHTML = `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","${CLARITY_ID}");`;
+      document.head.appendChild(script);
     }
   }, []);
 

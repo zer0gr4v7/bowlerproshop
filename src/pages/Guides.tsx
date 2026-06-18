@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 import Layout from "../components/Layout";
+import ProductModule from "../components/ProductModule";
 import { findGuidePage, guidePages } from "../lib/site";
 
 function RenderBody({ body }: { body: string }) {
@@ -69,6 +70,12 @@ export default function Guides() {
             <p className="text-xl text-slate-300 leading-relaxed mb-12">
               {guide.intro}
             </p>
+            {guide.path.startsWith("/best/") && (
+              <ProductModule
+                slug={guide.path.replace("/best/", "")}
+                sourcePage={guide.path}
+              />
+            )}
             <div className="space-y-10">
               {guide.sections.map((section) => (
                 <section key={section.heading} className="border-t border-slate-800 pt-8">
