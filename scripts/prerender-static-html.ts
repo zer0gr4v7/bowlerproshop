@@ -289,7 +289,7 @@ function graphForPage(page: StaticPage) {
   if (guide) {
     graph.push({
       "@type": "Article",
-      headline: guide.title,
+      headline: guide.title.replace(` | ${SITE.name}`, ""),
       description: guide.description,
       dateModified: `${guide.lastUpdated}-01`,
       author: {
@@ -361,7 +361,7 @@ function headForPage(page: StaticPage) {
     ...(gscVerification
       ? [`    <meta name="google-site-verification" content="${escapeHtml(gscVerification)}" />`]
       : []),
-    `    <script type="application/ld+json">${JSON.stringify(graphForPage(page))}</script>`,
+    `    <script id="bowlerproshop-jsonld" type="application/ld+json">${JSON.stringify(graphForPage(page))}</script>`,
   ].join("\n");
 }
 

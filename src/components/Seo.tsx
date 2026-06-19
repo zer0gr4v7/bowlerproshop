@@ -30,10 +30,15 @@ function upsertJsonLd(id: string, data: Record<string, unknown>) {
   let element = document.head.querySelector<HTMLScriptElement>(`#${id}`);
 
   if (!element) {
-    element = document.createElement("script");
-    element.id = id;
-    element.type = "application/ld+json";
-    document.head.appendChild(element);
+    element = document.head.querySelector<HTMLScriptElement>('script[type="application/ld+json"]:not([id])');
+    if (element) {
+      element.id = id;
+    } else {
+      element = document.createElement("script");
+      element.id = id;
+      element.type = "application/ld+json";
+      document.head.appendChild(element);
+    }
   }
 
   element.textContent = JSON.stringify(data);
@@ -163,7 +168,7 @@ export default function Seo() {
     if (guide) {
       structuredData.push({
         "@type": "Article",
-        headline: guide.title,
+        headline: guide.title.replace(` | ${SITE.name}`, ""),
         description: guide.description,
         dateModified: `${guide.lastUpdated}-01`,
         author: {
