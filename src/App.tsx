@@ -30,8 +30,8 @@ export default function App() {
         <Route path="/guides/*" element={<Guides />} />
         <Route path="/best/*" element={<Guides />} />
         <Route path="/start-here" element={<Guides />} />
-        <Route path="/bowling-alleys" element={<Guides />} />
-        <Route path="/pro-shops" element={<Guides />} />
+        <Route path="/bowling-alleys" element={<Partners />} />
+        <Route path="/pro-shops" element={<Partners />} />
         <Route path="/partners" element={<Partners />} />
         <Route path="/contact" element={<Partners />} />
         <Route path="/affiliate-disclosure" element={<Disclosure />} />
