@@ -126,6 +126,43 @@
           { "name": "Amazon", "go_path": "/go/amazon/motiv-power-gel" }
         ]
       }
+    ],
+    "bowling-shoe-covers": [
+      {
+        "id": "storm-shoe-cover",
+        "name": "Storm Bowling Shoe Cover",
+        "category": "Slide sole protection",
+        "price_band": "$12-$20",
+        "fit": "Most adult shoe sizes (elastic top)",
+        "best_for": "Quick slip-on protection for league bowlers",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/storm-shoe-cover" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/storm-shoe-cover" }
+        ]
+      },
+      {
+        "id": "brunswick-shoe-shield",
+        "name": "Brunswick Shoe Shield",
+        "category": "Heavy-duty shoe cover",
+        "price_band": "$15-$25",
+        "fit": "Wide fit, reinforced sole",
+        "best_for": "Bowlers who walk through parking lots or wet areas frequently",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/brunswick-shoe-shield" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/brunswick-shoe-shield" }
+        ]
+      },
+      {
+        "id": "kr-strikeforce-shoe-covers",
+        "name": "KR Strikeforce Shoe Covers",
+        "category": "Lightweight shoe cover",
+        "price_band": "$10-$18",
+        "fit": "Universal, lightweight, packable",
+        "best_for": "Bowlers who want minimal bulk in their bag",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/kr-strikeforce-shoe-covers" }
+        ]
+      }
     ]
   }
 }

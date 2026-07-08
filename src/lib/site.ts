@@ -149,6 +149,27 @@ export const pageSeo: Record<string, PageSeo> = {
     description:
       "Build a practical bowling accessory kit with cleaner, towel, tape, shoe covers, and maintenance basics.",
   },
+  "/bowling-equipment": {
+    path: "/bowling-equipment",
+    title: "Bowling Equipment Guide | Balls, Shoes, Bags, and Accessories",
+    description:
+      "Compare bowling equipment by category, fit, lane condition, budget, and skill level. Start with beginner-friendly options, then verify sizing and availability before buying.",
+    type: "article",
+  },
+  "/bowling-supplies": {
+    path: "/bowling-supplies",
+    title: "Bowling Supplies Guide | What League Bowlers Actually Need",
+    description:
+      "Compare bowling supplies by use case, maintenance need, and bowling frequency. Practical checklist for league bowlers building a consistent kit.",
+    type: "article",
+  },
+  "/online-bowling-pro-shop": {
+    path: "/online-bowling-pro-shop",
+    title: "Online Bowling Pro Shop Guide | Compare Retailers and Buy Smart",
+    description:
+      "Compare online bowling pro shops by selection, shipping, drilling options, and return policies. Find the right retailer for balls, shoes, bags, and accessories.",
+    type: "article",
+  },
   "/start-here": {
     path: "/start-here",
     title: "Start Here | BowlerProShop Beginner Gear Guide",

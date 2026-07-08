@@ -225,6 +225,9 @@ function toSitemap(pages: ContentPage[]) {
     { loc: "/partners", priority: "0.5" },
   ];
 
+  // Hub pages are defined in content files and will appear via contentUrls.
+  // No need to duplicate them here — they flow through the normal content pipeline.
+
   const contentUrls = pages.map((page) => ({
     loc: page.path,
     lastmod: dateForSitemap(page.lastUpdated),

@@ -91,6 +91,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://bowlerproshop.com/best/bowling-shoe-covers</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://bowlerproshop.com/guides/first-reactive-bowling-ball</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -123,6 +129,30 @@
   <url>
     <loc>https://bowlerproshop.com/guides/used-bowling-ball-buying-checklist</loc>
     <lastmod>2026-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://bowlerproshop.com/bowling-equipment</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bowlerproshop.com/bowling-supplies</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bowlerproshop.com/online-bowling-pro-shop</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://bowlerproshop.com/guides/how-to-clean-a-bowling-ball</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

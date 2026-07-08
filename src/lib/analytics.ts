@@ -52,3 +52,52 @@ export function trackEmailSignup(payload: {
     gear_need: payload.gearNeed || "checklist",
   });
 }
+
+export function trackGuideCta(payload: {
+  sourcePage: string;
+  ctaText: string;
+  targetPath: string;
+  guideSlug?: string;
+}) {
+  trackEvent({
+    event: "guide_cta_click",
+    source_page: payload.sourcePage,
+    cta_text: payload.ctaText,
+    target_path: payload.targetPath,
+    guide_slug: payload.guideSlug || "unknown",
+  });
+}
+
+export function trackProductCardClick(payload: {
+  merchant: string;
+  productSlug: string;
+  sourcePage: string;
+  placement: string;
+  category?: string;
+}) {
+  trackEvent({
+    event: "product_card_click",
+    merchant: payload.merchant,
+    product_slug: payload.productSlug,
+    source_page: payload.sourcePage,
+    placement: payload.placement,
+    product_category: payload.category || "unknown",
+  });
+}
+
+export function trackSelectorRecommendation(payload: {
+  selectorType: string;
+  productSlug: string;
+  merchant: string;
+  skillLevel?: string;
+  budgetBucket?: string;
+}) {
+  trackEvent({
+    event: "selector_recommendation_click",
+    selector_type: payload.selectorType,
+    product_slug: payload.productSlug,
+    merchant: payload.merchant,
+    skill_level: payload.skillLevel || "unknown",
+    budget_bucket: payload.budgetBucket || "unknown",
+  });
+}

@@ -29,6 +29,9 @@ export default function App() {
         <Route path="/guides" element={<Guides />} />
         <Route path="/guides/*" element={<Guides />} />
         <Route path="/best/*" element={<Guides />} />
+        <Route path="/bowling-equipment" element={<Guides />} />
+        <Route path="/bowling-supplies" element={<Guides />} />
+        <Route path="/online-bowling-pro-shop" element={<Guides />} />
         <Route path="/start-here" element={<Guides />} />
         <Route path="/bowling-alleys" element={<Partners />} />
         <Route path="/pro-shops" element={<Partners />} />

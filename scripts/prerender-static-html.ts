@@ -216,6 +216,9 @@ const aliases: Record<string, string> = {
   "/privacy-policy": "/privacy",
 };
 
+// Hub pages that also exist as guide content — ensure they get prerendered via the guide path
+// The content pipeline handles these since they have content/*.mdx files with matching paths.
+
 function escapeHtml(value: string) {
   return value
     .replace(/&/g, "&amp;")

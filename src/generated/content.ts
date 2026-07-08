@@ -187,6 +187,64 @@ export const generatedGuidePages: GuidePage[] = [
     ]
   },
   {
+    "path": "/best/bowling-shoe-covers",
+    "type": "article",
+    "category": "Accessories",
+    "difficulty": "Beginner",
+    "lastUpdated": "2026-07",
+    "monetization": "Affiliate-ready",
+    "author": "BowlerProShop Editorial",
+    "title": "Best Bowling Shoe Covers | Protect Your Slide Sole",
+    "description": "Compare bowling shoe covers by fit, durability, and slip-on ease. The first accessory every bowler should own to protect slide sole consistency.",
+    "ctaLabel": "Build my accessory kit",
+    "ctaPath": "/best/bowling-accessories-for-beginners",
+    "intro": "Bowling shoe covers are the single cheapest upgrade that protects your most expensive footwear investment. One trip to the bathroom or parking lot with exposed slide soles can ruin approach consistency for the rest of the night.",
+    "sections": [
+      {
+        "heading": "Quick picks to compare",
+        "body": "- Storm Shoe Cover: durable elastic, fits most adult sizes, quick slip-on design.\n- Brunswick Shoe Shield: heavy-duty sole protection, reinforced bottom, wide fit.\n- KR Strikeforce Shoe Covers: lightweight, packable, universal sizing.\n\nAlways verify current availability, sizing compatibility with your shoe brand, and return policy before buying."
+      },
+      {
+        "heading": "Why shoe covers matter",
+        "body": "Bowling shoes have specialized soles. The slide sole (usually left foot for right-handed bowlers) needs to stay clean and dry for a predictable approach. Moisture, grit, food residue, or bathroom floor water on that sole changes your slide length unpredictably. Shoe covers prevent that in seconds."
+      },
+      {
+        "heading": "When to wear shoe covers",
+        "body": "- Walking to and from your lane (especially away from the approach area)\n- Going to the restroom, snack bar, or front desk\n- Walking through the parking lot before or after bowling\n- Anytime you leave the approach surface"
+      },
+      {
+        "heading": "What to look for in bowling shoe covers",
+        "body": "- Easy on/off (elastic top or zipper)\n- Thick enough sole to protect from moisture\n- Fits over your shoe without crushing the sides\n- Packable (fits in your bag or back pocket)\n- Durable construction (reinforced seams)"
+      },
+      {
+        "heading": "Shoe cover sizing",
+        "body": "Most bowling shoe covers use universal or S/M/L sizing. They stretch over your bowling shoes, so check the manufacturer's size chart against your shoe size. If between sizes, go up."
+      },
+      {
+        "heading": "Do not buy shoe covers if",
+        "body": "- You only bowl in rentals (rentals are already damaged)\n- You never leave the approach area during a session (rare but possible)\n- You prefer disposable alternatives (some centers offer plastic bags)"
+      },
+      {
+        "heading": "Care and replacement",
+        "body": "Shoe covers last 6-12 months of regular use. Replace when the sole thins, elastic loosens, or seams separate. Machine wash occasionally if they pick up debris."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are bowling shoe covers necessary?",
+        "answer": "Yes for anyone who owns bowling shoes. One wet step can change your slide length for an entire session. Shoe covers cost $10-25 and protect shoes that cost $50-300+."
+      },
+      {
+        "question": "Can I use plastic bags instead of shoe covers?",
+        "answer": "Technically yes, but bags tear easily, slip off, and look unprofessional. Dedicated shoe covers are more durable, faster to use, and more secure on your feet."
+      },
+      {
+        "question": "Do shoe covers fit over performance bowling shoes?",
+        "answer": "Most universal shoe covers fit over both athletic-style and performance bowling shoes. Check the sizing chart if you have wide or high-top performance shoes."
+      }
+    ]
+  },
+  {
     "path": "/guides/first-reactive-bowling-ball",
     "type": "article",
     "category": "Ball Buying",
@@ -414,6 +472,242 @@ export const generatedGuidePages: GuidePage[] = [
       {
         "heading": "Match age to purpose",
         "body": "Older balls may still be useful for practice, spare shooting, or dry-lane control. For a primary league strike ball, prioritize condition and predictable reaction over nostalgia."
+      }
+    ]
+  },
+  {
+    "path": "/bowling-equipment",
+    "type": "article",
+    "category": "Equipment",
+    "difficulty": "Beginner",
+    "lastUpdated": "2026-07",
+    "monetization": "Affiliate-ready",
+    "author": "BowlerProShop Editorial",
+    "title": "Bowling Equipment Guide | Balls, Shoes, Bags, and Accessories",
+    "description": "Compare bowling equipment by category, fit, lane condition, budget, and skill level. Start with beginner-friendly options, then verify sizing and availability before buying.",
+    "ctaLabel": "Find my gear",
+    "ctaPath": "/find-my-gear",
+    "intro": "Bowling equipment breaks down into four categories: balls, shoes, bags, and accessories. Each one solves a different problem. Start with what limits your game the most, not the most expensive item on the shelf.",
+    "sections": [
+      {
+        "heading": "What counts as bowling equipment",
+        "body": "Bowling equipment includes anything you bring to the lanes that affects your game: bowling balls (reactive, urethane, plastic/spare), bowling shoes (universal, performance, interchangeable-sole), bowling bags (single-ball, 2-ball roller, tournament), and accessories (cleaner, towels, tape, shoe covers, wrist supports)."
+      },
+      {
+        "heading": "How to prioritize your first purchases",
+        "body": "If you bowl monthly or more, shoes come first. Consistent slide matters more than ball choice at low averages. If you already own shoes, a properly fitted reactive ball is the biggest single upgrade. Bags and accessories fill in after the core setup is stable."
+      },
+      {
+        "heading": "Bowling balls by use case",
+        "body": "- Spare ball (plastic): straight-line corner pins. Every bowler with a reactive ball needs one.\n- First reactive ball (benchmark): medium-oil hook for learning lane transition. Start here.\n- Strong asymmetric ball: heavy oil, tournament conditions, or when the benchmark under-reads.\n- Urethane ball: short patterns, dry lanes, or a predictable arc with less backend."
+      },
+      {
+        "heading": "Bowling shoes by frequency",
+        "body": "- Bowl a few times a year: rentals may be enough.\n- Bowl monthly: universal fixed-slide shoes save rental fees and improve consistency.\n- Bowl weekly (league): performance shoes with interchangeable soles let you tune approach."
+      },
+      {
+        "heading": "Bowling bags by setup size",
+        "body": "- Single-ball tote: casual bowler with one ball.\n- 2-ball roller: league bowler with strike and spare balls plus shoes.\n- 3+ ball roller: tournament bowler or multi-condition prep."
+      },
+      {
+        "heading": "Bowling accessories that matter first",
+        "body": "Shoe covers protect slide soles from parking lots and bathrooms. A microfiber towel removes oil between shots. USBC-approved ball cleaner keeps reaction predictable. Bowling tape adjusts grip as humidity and hand size change during a set."
+      },
+      {
+        "heading": "Where to buy bowling equipment online",
+        "body": "Compare availability across multiple retailers. Prices, stock, and shipping vary significantly. For drilled bowling balls, confirm weight, span, pitch, layout, and surface prep with a local pro shop before ordering."
+      },
+      {
+        "heading": "What to verify before buying any bowling equipment",
+        "body": "- Shoe size, width, and handedness\n- Ball weight (most adults use 14-16 lbs)\n- Return policy and restocking fees\n- Drilling cost and turnaround time for balls\n- USBC approval status for cleaners and accessories\n- Shipping cost for heavy items (balls, bags)"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What bowling equipment does a beginner need?",
+        "answer": "A pair of bowling shoes and a properly weighted reactive ball are the two most impactful beginner purchases. Add a microfiber towel, shoe covers, and approved cleaner once you bowl regularly."
+      },
+      {
+        "question": "How much does a full bowling setup cost?",
+        "answer": "A beginner setup (shoes + first ball + bag + accessories) typically ranges from $250-$500 depending on ball choice and drilling. Shoes start around $50, reactive balls around $100-180 undrilled."
+      },
+      {
+        "question": "Should I buy bowling equipment online or at a pro shop?",
+        "answer": "Both have value. Online retailers offer price comparison and wider selection. Pro shops offer fitting, drilling, surface prep, and hands-on advice. Many bowlers compare online then buy balls through their pro shop for proper drilling."
+      }
+    ]
+  },
+  {
+    "path": "/bowling-supplies",
+    "type": "article",
+    "category": "Supplies",
+    "difficulty": "Beginner",
+    "lastUpdated": "2026-07",
+    "monetization": "Affiliate-ready",
+    "author": "BowlerProShop Editorial",
+    "title": "Bowling Supplies Guide | What League Bowlers Actually Need",
+    "description": "Compare bowling supplies by use case, maintenance need, and bowling frequency. Practical checklist for league bowlers building a consistent kit.",
+    "ctaLabel": "Use the gear finder",
+    "ctaPath": "/find-my-gear",
+    "intro": "Bowling supplies are the consumables and maintenance items that keep your equipment performing. Unlike one-time purchases like balls and shoes, supplies get used up and replaced. Knowing what you need prevents mid-league scrambles and keeps your gear consistent.",
+    "sections": [
+      {
+        "heading": "Core bowling supplies every league bowler needs",
+        "body": "- USBC-approved ball cleaner (spray or foam)\n- Microfiber bowling towel (oil removal between shots)\n- Bowling tape (thumb inserts or finger tape for grip adjustment)\n- Shoe covers (sole protection off the approach)\n- Rosin bag or grip sack (moisture management)"
+      },
+      {
+        "heading": "Ball maintenance supplies",
+        "body": "Ball cleaner keeps your coverstock reactive. Oil absorbs into the surface over time and reduces hook. Clean after every session with an approved cleaner and towel. Deep-clean or resurface periodically based on games played and oil volume."
+      },
+      {
+        "heading": "Grip and fit supplies",
+        "body": "Bowling tape compensates for swelling, humidity, and wear on finger/thumb inserts. Keep both white tape (to tighten holes) and black tape (to smooth release) in your bag. Replace inserts when they crack or lose grip texture."
+      },
+      {
+        "heading": "Shoe maintenance supplies",
+        "body": "Slide soles wear down and pick up debris. Carry a wire brush or sole cleaner for sticky approaches. Shoe covers protect soles from moisture between frames or away from the lane area."
+      },
+      {
+        "heading": "Supplies for league night",
+        "body": "Pack your bag with a checklist: towel, cleaner, tape, rosin, shoe covers, and a spare pair of shoelaces. Running out of tape mid-league costs consistency. A small accessory pouch inside your bag keeps everything organized."
+      },
+      {
+        "heading": "How often to replace bowling supplies",
+        "body": "- Ball cleaner: every 2-4 months of weekly play (one bottle)\n- Microfiber towel: replace when it stops absorbing oil effectively\n- Bowling tape: use as needed per session (plan 2-4 strips per session)\n- Shoe soles (interchangeable): every 6-12 months depending on wear\n- Finger/thumb inserts: every 3-6 months of regular play"
+      },
+      {
+        "heading": "Where to compare bowling supplies",
+        "body": "Most bowling supplies are available from multiple retailers. Prices vary. Check current availability and shipping before buying, especially for cleaners (some have shipping restrictions)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What bowling supplies should a new league bowler buy first?",
+        "answer": "Start with a microfiber towel, USBC-approved cleaner, and shoe covers. These three items protect your investment and keep your game consistent from week one."
+      },
+      {
+        "question": "Are expensive bowling supplies better?",
+        "answer": "Not necessarily. The key is USBC approval for cleaners and consistent quality for towels and tape. Price differences between brands are often small, and fit matters more than brand for tape and inserts."
+      },
+      {
+        "question": "Can I use household cleaners on my bowling ball?",
+        "answer": "No. Many household cleaners are not USBC-approved and can damage coverstock or violate competition rules. Use only cleaners labeled as approved for use on bowling balls during sanctioned play."
+      }
+    ]
+  },
+  {
+    "path": "/online-bowling-pro-shop",
+    "type": "article",
+    "category": "Shopping",
+    "difficulty": "Beginner",
+    "lastUpdated": "2026-07",
+    "monetization": "Affiliate-ready",
+    "author": "BowlerProShop Editorial",
+    "title": "Online Bowling Pro Shop Guide | Compare Retailers and Buy Smart",
+    "description": "Compare online bowling pro shops by selection, shipping, drilling options, and return policies. Find the right retailer for balls, shoes, bags, and accessories.",
+    "ctaLabel": "Find my gear",
+    "ctaPath": "/find-my-gear",
+    "intro": "An online bowling pro shop gives you wider selection and price comparison than most local shops. But not all online retailers are the same. Some offer drilling services, some ship undrilled only, and return policies vary widely for custom-drilled equipment.",
+    "sections": [
+      {
+        "heading": "What an online bowling pro shop actually is",
+        "body": "Online bowling pro shops sell bowling balls, shoes, bags, and accessories through ecommerce. Some are full-service (offering drilling by mail with measurements you provide), while others sell undrilled equipment that you take to a local pro shop for fitting."
+      },
+      {
+        "heading": "Top online bowling retailers to compare",
+        "body": "When shopping for bowling gear online, compare these established retailers:\n\n- BowlersMart: large inventory, frequent sales, drilling available\n- BowlingBall.com: wide ball selection, comparison tools, drilling services\n- Bowling.com: broad catalog across all gear categories\n- BowlerX: competitive pricing, customer service reputation\n- Amazon: convenience, fast shipping, but verify seller reputation for bowling-specific gear"
+      },
+      {
+        "heading": "What to check before buying online",
+        "body": "- Return policy for drilled vs undrilled equipment\n- Drilling options and measurement requirements\n- Shipping cost for heavy items (bowling balls weigh 10-16 lbs)\n- Seller reputation and authorized dealer status\n- Warranty coverage from the manufacturer"
+      },
+      {
+        "heading": "When to buy online vs at a local pro shop",
+        "body": "Buy online when: you know your specs, want price comparison, need accessories/supplies, or your local shop lacks selection.\n\nBuy at a local pro shop when: you need fitting, drilling, layout consultation, surface adjustments, or hands-on advice about your game.\n\nMany experienced bowlers do both: research and compare online, then buy drilled balls through their pro shop for proper fitting and ongoing maintenance."
+      },
+      {
+        "heading": "Drilling considerations for online ball purchases",
+        "body": "If you buy a ball online undrilled, you still need a local pro shop to drill it. Budget $40-$80 for drilling plus inserts. Provide your pro shop with the ball's pin position and preferred layout if you have a specific motion in mind."
+      },
+      {
+        "heading": "Price comparison tips",
+        "body": "- Check multiple retailers for the same model\n- Factor in drilling cost if buying undrilled\n- Watch for seasonal sales (especially during bowling season start in August-September)\n- Compare shipping costs — balls are heavy\n- Look for bundle deals (ball + bag, or shoes + accessories)"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is it safe to buy bowling balls online?",
+        "answer": "Yes, from established retailers. Verify the seller is an authorized dealer for warranty coverage. For drilled balls purchased online, provide accurate measurements to avoid fit problems."
+      },
+      {
+        "question": "Do online bowling pro shops offer returns on drilled balls?",
+        "answer": "Policies vary significantly. Most retailers do not accept returns on custom-drilled equipment. Some offer exchange programs or store credit. Always check the drilling return policy before ordering."
+      },
+      {
+        "question": "How long does shipping take for bowling equipment?",
+        "answer": "Standard shipping for bowling balls is typically 5-10 business days due to weight. Expedited options are available from most retailers. Accessories and supplies usually ship faster and cheaper."
+      }
+    ]
+  },
+  {
+    "path": "/guides/how-to-clean-a-bowling-ball",
+    "type": "article",
+    "category": "Maintenance",
+    "difficulty": "Beginner",
+    "lastUpdated": "2026-07",
+    "monetization": "Affiliate-ready",
+    "author": "BowlerProShop Editorial",
+    "title": "How to Clean a Bowling Ball | Maintain Reaction and Hook",
+    "description": "Learn how to clean a bowling ball properly with USBC-approved cleaners. Maintain consistent hook, remove lane oil, and extend coverstock life.",
+    "ctaLabel": "Compare ball cleaners",
+    "ctaPath": "/best/bowling-ball-cleaner",
+    "intro": "Cleaning your bowling ball after every session keeps the coverstock pores open and your reaction predictable. Lane oil absorbs into the ball surface over time, reducing hook and making your ball read the lane differently than when it was fresh.",
+    "sections": [
+      {
+        "heading": "Why cleaning matters",
+        "body": "Reactive coverstocks are porous by design. They grip the lane by absorbing oil in the front portion of the lane and releasing energy at the breakpoint. When pores fill with oil, the ball skids longer and hooks less. Regular cleaning reverses this before it becomes a permanent problem."
+      },
+      {
+        "heading": "Between-game cleaning (after every session)",
+        "body": "1. Wipe the ball with a microfiber towel after every shot during play to remove surface oil.\n2. After your session ends, spray the ball with USBC-approved cleaner.\n3. Wipe thoroughly with a clean microfiber towel.\n4. Let the ball air dry before putting it in your bag.\n\nThis takes 30-60 seconds and is the single most important maintenance habit."
+      },
+      {
+        "heading": "Deep cleaning (every 30-60 games)",
+        "body": "When between-game cleaning stops restoring reaction, the ball needs a deeper clean:\n\n1. Apply a USBC-approved deep cleaner or degreaser\n2. Let it sit for the time specified on the product label\n3. Wipe off completely\n4. Some bowlers use a ball spinner for even coverage\n\nDeep cleaning removes oil that surface cleaning misses. Your pro shop can also resurface or bake the ball if oil saturation is severe."
+      },
+      {
+        "heading": "What cleaners to use",
+        "body": "- USBC-approved spray cleaners (Storm Reacta Foam, Tac-Up, Lane Ghost)\n- USBC-approved wipes (convenient but less thorough)\n- Deep cleaners (for periodic maintenance, not between-game use)\n\nDo not use: rubbing alcohol (can dry out coverstock), dish soap (leaves residue), acetone (damages surface), or any cleaner not approved for use on bowling balls."
+      },
+      {
+        "heading": "USBC cleaning rules",
+        "body": "During sanctioned competition, you may only use USBC-approved cleaners. You can clean your ball during competition with an approved cleaner and towel between frames. Check current USBC rules for any updates on approved products and cleaning timing."
+      },
+      {
+        "heading": "Signs your ball needs cleaning",
+        "body": "- Ball hooks less than usual on the same lane condition\n- Surface looks dull or feels tacky/oily\n- Ball skids longer before breaking\n- Visible oil track stays wet-looking after wiping"
+      },
+      {
+        "heading": "When to resurface instead of clean",
+        "body": "If deep cleaning does not restore reaction, the ball may need resurfacing (sanding back to original grit). This removes a thin layer of coverstock and opens fresh pores. Your pro shop can do this — typically every 60-100 games or when cleaning alone stops working."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How often should I clean my bowling ball?",
+        "answer": "Wipe with a towel after every shot. Spray-clean after every session. Deep-clean every 30-60 games or when reaction noticeably decreases despite regular cleaning."
+      },
+      {
+        "question": "Can I clean my bowling ball with rubbing alcohol?",
+        "answer": "It is not recommended. Rubbing alcohol can dry out reactive coverstocks and is not USBC-approved for use during competition. Use purpose-made bowling ball cleaners instead."
+      },
+      {
+        "question": "Does cleaning a bowling ball make it hook more?",
+        "answer": "Yes. Removing oil from the coverstock pores restores the ball's ability to grip the lane surface, which typically increases hook potential back toward its original level."
+      },
+      {
+        "question": "How do I know if my ball cleaner is USBC-approved?",
+        "answer": "Check the product label or the USBC website for the current approved products list. Most bowling-specific cleaners from major brands (Storm, Motiv, Brunswick) are approved."
       }
     ]
   }

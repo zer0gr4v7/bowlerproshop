@@ -51,6 +51,48 @@ export const MERCHANT_INVENTORY = {
     getLink: (searchQuery: string) =>
       `https://www.bowlingball.com/search?q=${encodeURIComponent(searchQuery)}`,
   },
+  bowlersmart: {
+    id: "bowlersmart",
+    name: "BowlersMart",
+    network: "Direct / affiliate pending",
+    approvalStatus: "documented-placeholder",
+    enabled: true,
+    baseUrl: "https://www.bowlersmart.com/search",
+    urlPattern: "https://www.bowlersmart.com/search?type=product&q={query}",
+    complianceNotes:
+      "Search destination enabled as placeholder. Replace with approved affiliate links after program approval. BowlersMart is a primary target merchant due to bowling-specific inventory depth.",
+    sourcePages: ["/tools/bowling-ball-selector", "/gear/bowling-balls", "/gear/bowling-shoes", "/guides", "/best"],
+    getLink: (searchQuery: string) =>
+      `https://www.bowlersmart.com/search?type=product&q=${encodeURIComponent(searchQuery)}`,
+  },
+  bowlingcom: {
+    id: "bowlingcom",
+    name: "Bowling.com",
+    network: "Direct / affiliate pending",
+    approvalStatus: "documented-placeholder",
+    enabled: true,
+    baseUrl: "https://www.bowling.com/search",
+    urlPattern: "https://www.bowling.com/search?q={query}",
+    complianceNotes:
+      "Search destination enabled as placeholder. Replace with approved affiliate links after program approval.",
+    sourcePages: ["/tools/bowling-ball-selector", "/gear/bowling-balls", "/gear/bowling-shoes", "/guides"],
+    getLink: (searchQuery: string) =>
+      `https://www.bowling.com/search?q=${encodeURIComponent(searchQuery)}`,
+  },
+  bowlerx: {
+    id: "bowlerx",
+    name: "BowlerX",
+    network: "Direct / affiliate pending",
+    approvalStatus: "documented-placeholder",
+    enabled: true,
+    baseUrl: "https://www.bowlerx.com",
+    urlPattern: "https://www.bowlerx.com/search.php?search_query={query}",
+    complianceNotes:
+      "Search destination enabled as placeholder. Replace with approved affiliate links after program approval.",
+    sourcePages: ["/tools/bowling-ball-selector", "/gear/bowling-balls", "/guides"],
+    getLink: (searchQuery: string) =>
+      `https://www.bowlerx.com/search.php?search_query=${encodeURIComponent(searchQuery)}`,
+  },
 } satisfies Record<string, MerchantInventoryItem>;
 
 export const AFFILIATES = Object.fromEntries(
