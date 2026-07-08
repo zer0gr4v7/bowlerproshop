@@ -1,0 +1,16 @@
+# Cloudflare Pages custom headers
+# https://developers.cloudflare.com/pages/configuration/headers/
+
+# Immutable caching for Vite content-hashed assets
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Long cache for stable brand assets (logo, hero, icons)
+/brand/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/icons/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/favicon.png
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
