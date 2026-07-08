@@ -1,0 +1,251 @@
+{
+  "exportFormatVersion": 2,
+  "exportTime": "2026-07-08",
+  "containerVersion": {
+    "tag": [
+      {
+        "accountId": "6357737911",
+        "containerId": "193519905",
+        "name": "GA4 - Affiliate Click Conversion",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "affiliate_click" },
+          { "type": "TEMPLATE", "key": "measurementIdOverride", "value": "G-NKCCX535CK" },
+          { "type": "BOOLEAN", "key": "sendEcommerceData", "value": "false" },
+          {
+            "type": "LIST", "key": "eventParameters",
+            "list": [
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "retailer" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - retailer}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "merchant_name" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - merchant_name}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "search_query" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - search_query}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "source_page" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - source_page}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "device_category" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - device_category}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "screen_resolution" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - screen_resolution}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "viewport_size" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - viewport_size}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "page_type" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - page_type}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "item_category" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - item_category}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "product_slug" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - product_slug}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "placement" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - placement}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "quick_filter" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - quick_filter}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "selector_settings" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - selector_settings}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "click_quality_score" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - click_quality_score}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "session_click_number" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - session_click_number}}" }
+              ]}
+            ]
+          }
+        ],
+        "firingTriggerId": ["affiliate_click_trigger"]
+      },
+      {
+        "accountId": "6357737911",
+        "containerId": "193519905",
+        "name": "GA4 - Page View",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "page_view" },
+          { "type": "TEMPLATE", "key": "measurementIdOverride", "value": "G-NKCCX535CK" },
+          {
+            "type": "LIST", "key": "eventParameters",
+            "list": [
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "page_path" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - page_path}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "page_title" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - page_title}}" }
+              ]}
+            ]
+          }
+        ],
+        "firingTriggerId": ["page_view_trigger"]
+      },
+      {
+        "accountId": "6357737911",
+        "containerId": "193519905",
+        "name": "GA4 - Selector Submit",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "selector_submit" },
+          { "type": "TEMPLATE", "key": "measurementIdOverride", "value": "G-NKCCX535CK" },
+          {
+            "type": "LIST", "key": "eventParameters",
+            "list": [
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "selector_type" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - selector_type}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "quick_filter" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - quick_filter}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "preferred_retailer" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - preferred_retailer}}" }
+              ]}
+            ]
+          }
+        ],
+        "firingTriggerId": ["selector_submit_trigger"]
+      },
+      {
+        "accountId": "6357737911",
+        "containerId": "193519905",
+        "name": "GA4 - Email Signup",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "email_signup" },
+          { "type": "TEMPLATE", "key": "measurementIdOverride", "value": "G-NKCCX535CK" }
+        ],
+        "firingTriggerId": ["email_signup_trigger"]
+      },
+      {
+        "accountId": "6357737911",
+        "containerId": "193519905",
+        "name": "GA4 - Recommendation Result View",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "eventName", "value": "recommendation_result_view" },
+          { "type": "TEMPLATE", "key": "measurementIdOverride", "value": "G-NKCCX535CK" },
+          {
+            "type": "LIST", "key": "eventParameters",
+            "list": [
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "selector_type" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - selector_type}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "result_count" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - result_count}}" }
+              ]},
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "recommendation_source" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DLV - recommendation_source}}" }
+              ]}
+            ]
+          }
+        ],
+        "firingTriggerId": ["recommendation_result_view_trigger"]
+      }
+    ],
+    "trigger": [
+      {
+        "name": "affiliate_click_trigger",
+        "type": "customEvent",
+        "customEventFilter": [
+          { "type": "EQUALS", "parameter": [
+            { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+            { "type": "TEMPLATE", "key": "arg1", "value": "affiliate_click" }
+          ]}
+        ]
+      },
+      {
+        "name": "page_view_trigger",
+        "type": "customEvent",
+        "customEventFilter": [
+          { "type": "EQUALS", "parameter": [
+            { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+            { "type": "TEMPLATE", "key": "arg1", "value": "page_view" }
+          ]}
+        ]
+      },
+      {
+        "name": "selector_submit_trigger",
+        "type": "customEvent",
+        "customEventFilter": [
+          { "type": "EQUALS", "parameter": [
+            { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+            { "type": "TEMPLATE", "key": "arg1", "value": "selector_submit" }
+          ]}
+        ]
+      },
+      {
+        "name": "email_signup_trigger",
+        "type": "customEvent",
+        "customEventFilter": [
+          { "type": "EQUALS", "parameter": [
+            { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+            { "type": "TEMPLATE", "key": "arg1", "value": "email_signup" }
+          ]}
+        ]
+      },
+      {
+        "name": "recommendation_result_view_trigger",
+        "type": "customEvent",
+        "customEventFilter": [
+          { "type": "EQUALS", "parameter": [
+            { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+            { "type": "TEMPLATE", "key": "arg1", "value": "recommendation_result_view" }
+          ]}
+        ]
+      }
+    ],
+    "variable": [
+      { "name": "DLV - retailer", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "retailer" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - merchant_name", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "merchant_name" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - search_query", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "search_query" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - source_page", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "source_page" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - device_category", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "device_category" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - screen_resolution", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "screen_resolution" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - viewport_size", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "viewport_size" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - page_type", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "page_type" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - item_category", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "item_category" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - product_slug", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "product_slug" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - placement", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "placement" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - quick_filter", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "quick_filter" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - selector_settings", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "selector_settings" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - click_quality_score", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "click_quality_score" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - session_click_number", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "session_click_number" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - selector_type", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "selector_type" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - preferred_retailer", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "preferred_retailer" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - result_count", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "result_count" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - recommendation_source", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "recommendation_source" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - page_path", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "page_path" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] },
+      { "name": "DLV - page_title", "type": "v", "parameter": [{ "type": "TEMPLATE", "key": "name", "value": "page_title" }, { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }] }
+    ]
+  }
+}

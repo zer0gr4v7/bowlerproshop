@@ -29,7 +29,7 @@ export default function EmailCaptureCta({
 
   if (submitted) {
     return (
-      <div className="border border-teal-500/25 bg-[#0c1018] p-6 rounded-sm my-8 text-center">
+      <div className="border border-teal-500/25 bg-navy-900 p-6 rounded-sm my-8 text-center">
         <p className="text-teal-400 font-bold text-sm">Thanks! Check your inbox.</p>
         <p className="text-slate-400 text-xs mt-2">
           If you do not see it, check spam. The checklist arrives within a few minutes.
@@ -39,7 +39,7 @@ export default function EmailCaptureCta({
   }
 
   return (
-    <div className="border border-teal-500/25 bg-[#0c1018] p-6 rounded-sm my-8">
+    <div className="border border-teal-500/25 bg-navy-900 p-6 rounded-sm my-8">
       <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-teal-400 mb-1">
         Free resource
       </p>
@@ -52,7 +52,7 @@ export default function EmailCaptureCta({
           onChange={(e) => setEmail(e.target.value)}
           placeholder="your@email.com"
           required
-          className="flex-1 px-4 py-2 bg-[#0a0d13] border border-slate-700/60 rounded text-sm text-bone-100 placeholder:text-slate-600 focus:border-teal-500 focus:outline-none"
+          className="flex-1 px-4 py-2 bg-navy-900 border border-slate-700/60 rounded text-sm text-bone-100 placeholder:text-slate-600 focus:border-teal-500 focus:outline-none"
         />
         <button
           type="submit"

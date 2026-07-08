@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { trackEvent } from "./analytics";
+import { trackRichAffiliateClick, type AffiliateClickContext } from "./analytics";
 
 export type MerchantApprovalStatus = "approved" | "pending" | "documented-placeholder" | "disabled";
 
@@ -124,15 +124,18 @@ export function getAffiliateRedirectPath(retailer: Retailer, searchQuery: string
   return `/go/${retailer}/search?${params.toString()}`;
 }
 
-export function trackAffiliateClick(retailer: Retailer, searchQuery: string, sourcePage: string) {
+export function trackAffiliateClick(
+  retailer: Retailer,
+  searchQuery: string,
+  sourcePage: string,
+  context?: AffiliateClickContext,
+) {
   const merchant = MERCHANT_INVENTORY[retailer];
-  trackEvent({
-    event: "affiliate_click",
+  trackRichAffiliateClick(
     retailer,
-    merchant_name: merchant?.name || retailer,
-    merchant_network: merchant?.network || "unknown",
-    approval_status: merchant?.approvalStatus || "unknown",
-    search_query: searchQuery,
-    source_page: sourcePage,
-  });
+    merchant?.name || retailer,
+    searchQuery,
+    sourcePage,
+    context,
+  );
 }

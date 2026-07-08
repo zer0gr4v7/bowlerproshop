@@ -32,7 +32,7 @@ export default function ProductModule({ slug, sourcePage }: { slug: string; sour
 
   return (
     <section
-      className="mt-12 border border-teal-500/25 bg-[#0c1018] p-6 md:p-8 rounded-sm"
+      className="mt-12 border border-teal-500/25 bg-graphite-800 p-6 md:p-8 rounded-sm"
       data-module="product-picks"
       data-slug={slug}
     >
@@ -44,7 +44,7 @@ export default function ProductModule({ slug, sourcePage }: { slug: string; sour
         {products.map((p) => (
           <li
             key={p.id}
-            className="rounded-sm border border-slate-700/60 bg-[#0a0d13] p-5 flex flex-col"
+            className="rounded-sm border border-slate-700/60 bg-navy-900 p-5 flex flex-col"
           >
             <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-amber-400 mb-1">
               {p.category}

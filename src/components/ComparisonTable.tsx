@@ -37,7 +37,7 @@ export default function ComparisonTable({
         <h2 className="text-2xl font-bold text-bone-100 mb-4">{caption}</h2>
       )}
       <table className="w-full text-sm text-left border border-slate-700/50 rounded-sm overflow-hidden">
-        <thead className="bg-[#0c1018] text-teal-400 text-[10px] uppercase tracking-wider">
+        <thead className="bg-navy-900 text-teal-400 text-[10px] uppercase tracking-wider">
           <tr>
             <th className="px-4 py-3">Item</th>
             <th className="px-4 py-3">Best for</th>
@@ -50,7 +50,7 @@ export default function ComparisonTable({
         </thead>
         <tbody className="divide-y divide-slate-700/30">
           {rows.map((row) => (
-            <tr key={row.item} className="bg-[#0a0d13] hover:bg-slate-800/30">
+            <tr key={row.item} className="bg-navy-900 hover:bg-slate-800/30">
               <td className="px-4 py-3 font-medium text-bone-100">{row.item}</td>
               <td className="px-4 py-3 text-slate-300">{row.bestFor}</td>
               <td className="px-4 py-3 text-slate-400">{row.priceTier}</td>

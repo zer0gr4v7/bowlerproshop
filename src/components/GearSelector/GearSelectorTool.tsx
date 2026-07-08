@@ -162,7 +162,7 @@ export default function GearSelectorTool({ config }: { config: ToolConfig }) {
 
             {/* Search bar — AI Domain Genius style */}
             <form onSubmit={handleRecommend} className="mb-6">
-              <div className="relative flex items-center bg-[#111318] border border-slate-700/60 rounded-full shadow-2xl shadow-black/30 overflow-hidden focus-within:border-teal-500/60 transition-colors">
+              <div className="relative flex items-center bg-graphite-800 border border-slate-700/60 rounded-full shadow-2xl shadow-black/30 overflow-hidden focus-within:border-teal-500/60 transition-colors">
                 <Search size={20} className="absolute left-5 text-slate-500 pointer-events-none" />
                 <input
                   ref={inputRef}
@@ -224,7 +224,7 @@ export default function GearSelectorTool({ config }: { config: ToolConfig }) {
                     exit={{ opacity: 0, height: 0 }}
                     className="overflow-hidden"
                   >
-                    <div className="mt-6 p-6 bg-[#111318] border border-slate-700/40 rounded-xl text-left">
+                    <div className="mt-6 p-6 bg-graphite-800 border border-slate-700/40 rounded-xl text-left">
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
                         {config.advancedOptions.map((opt) => (
                           <div key={opt.id} className="flex flex-col gap-2">
@@ -309,7 +309,7 @@ export default function GearSelectorTool({ config }: { config: ToolConfig }) {
                 { title: "Disclosure", copy: "Merchant links may earn commissions. Shortlist is based on product fit." },
                 { title: "Final fit", copy: "Confirm drilling, slide, and fit with a local pro shop." },
               ].map((note) => (
-                <div key={note.title} className="rounded-lg border border-teal-500/10 bg-[#111318] p-4">
+                <div key={note.title} className="rounded-lg border border-teal-500/10 bg-graphite-800 p-4">
                   <h2 className="mb-1 text-[10px] font-bold uppercase tracking-widest text-teal-500">{note.title}</h2>
                   <p className="text-[11px] leading-relaxed text-slate-500">{note.copy}</p>
                 </div>
@@ -333,7 +333,7 @@ export default function GearSelectorTool({ config }: { config: ToolConfig }) {
                     As an Amazon Associate I earn from qualifying purchases. Match scores are based on your inputs and product fit criteria.
                   </div>
 
-                  <div className="bg-[#111318] overflow-hidden rounded-lg border border-slate-800/60">
+                  <div className="bg-graphite-800 overflow-hidden rounded-lg border border-slate-800/60">
                     <div className="overflow-x-auto">
                       <table className="w-full text-left border-collapse">
                         <thead>
@@ -398,7 +398,7 @@ export default function GearSelectorTool({ config }: { config: ToolConfig }) {
                                   href={getAffiliateRedirectPath(retailer, item.amazon_search_query)}
                                   target="_blank"
                                   rel="noopener noreferrer sponsored nofollow"
-                                  onClick={() => trackAffiliateClick(retailer, item.amazon_search_query, window.location.pathname)}
+                                  onClick={() => trackAffiliateClick(retailer, item.amazon_search_query, window.location.pathname, { quickFilter: selectedQuickFilter, selectorSettings: advancedValues, productCategory: config.type, productSlug: item.product_name.toLowerCase().replace(/\s+/g, "-"), placement: "selector_result" })}
                                   aria-label={`Compare ${item.product_name} on ${AFFILIATES[retailer].name}`}
                                   className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 px-4 py-2 rounded-full text-navy-900 transition-all font-bold text-[10px] tracking-wider"
                                 >
@@ -493,7 +493,7 @@ export default function GearSelectorTool({ config }: { config: ToolConfig }) {
                   <>
                     <div className="flex-grow overflow-y-auto space-y-4 pr-2">
                       {bag.map((item) => (
-                        <div key={item.product_name} className="bg-[#111318] border border-slate-800/40 p-4 rounded-lg flex gap-4 group">
+                        <div key={item.product_name} className="bg-graphite-800 border border-slate-800/40 p-4 rounded-lg flex gap-4 group">
                           <div className="flex-grow">
                             <div className="flex justify-between items-start">
                               <div className="font-bold text-bone-100 text-sm">{item.product_name}</div>
@@ -511,7 +511,7 @@ export default function GearSelectorTool({ config }: { config: ToolConfig }) {
                                 href={getAffiliateRedirectPath(retailer, item.amazon_search_query)}
                                 target="_blank"
                                 rel="noopener noreferrer sponsored nofollow"
-                                onClick={() => trackAffiliateClick(retailer, item.amazon_search_query, window.location.pathname)}
+                                onClick={() => trackAffiliateClick(retailer, item.amazon_search_query, window.location.pathname, { quickFilter: selectedQuickFilter, selectorSettings: advancedValues, productCategory: config.type, productSlug: item.product_name.toLowerCase().replace(/\s+/g, "-"), placement: "selector_result" })}
                                 className="text-teal-500 hover:text-teal-400 text-[10px] font-bold uppercase tracking-widest flex items-center gap-1"
                               >
                                 View Price <ExternalLink size={10} />
@@ -535,7 +535,7 @@ export default function GearSelectorTool({ config }: { config: ToolConfig }) {
                       <button
                         onClick={() => {
                           const searchQuery = bag.map(i => i.product_name).join(" ");
-                          trackAffiliateClick(retailer, searchQuery, window.location.pathname);
+                          trackAffiliateClick(retailer, searchQuery, window.location.pathname, { quickFilter: selectedQuickFilter, selectorSettings: advancedValues, placement: "bag_compare_all" });
                           window.open(getAffiliateRedirectPath(retailer, searchQuery), "_blank", "noopener,noreferrer");
                         }}
                         className="w-full bg-amber-500 text-navy-900 py-4 font-bold uppercase tracking-widest text-[10px] rounded-lg transition-all shadow-xl shadow-amber-500/10"
