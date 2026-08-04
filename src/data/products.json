@@ -127,6 +127,70 @@
         ]
       }
     ],
+    "bowling-balls": [
+      {
+        "id": "storm-phaze-ii",
+        "name": "Storm Phaze II",
+        "category": "Benchmark reactive (medium-heavy oil)",
+        "price_band": "$160-$190",
+        "fit": "Medium rev rates, house shot to sport",
+        "best_for": "League bowler needing readable mid-lane motion with strong backend continuation",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/storm-phaze-ii" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/storm-phaze-ii" },
+          { "name": "Bowling.com", "go_path": "/go/bowlingcom/storm-phaze-ii" }
+        ]
+      },
+      {
+        "id": "motiv-venom-shock",
+        "name": "Motiv Venom Shock",
+        "category": "Benchmark reactive (medium oil)",
+        "price_band": "$150-$180",
+        "fit": "Medium-low rev rates, typical house shot",
+        "best_for": "Bowler wanting smooth controllable hook on medium oil without over-reacting",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/motiv-venom-shock" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/motiv-venom-shock" }
+        ]
+      },
+      {
+        "id": "hammer-raw-hammer",
+        "name": "Hammer Raw Hammer",
+        "category": "Entry-level reactive (light-medium oil)",
+        "price_band": "$100-$130",
+        "fit": "First reactive ball, lower rev rates",
+        "best_for": "Beginner moving from plastic to first hook ball on drier lanes",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/hammer-raw-hammer" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/hammer-raw-hammer" }
+        ]
+      },
+      {
+        "id": "brunswick-tzone",
+        "name": "Brunswick T-Zone Polyester",
+        "category": "Plastic spare ball",
+        "price_band": "$50-$80",
+        "fit": "All skill levels, straight-line spare shooting",
+        "best_for": "Dedicated spare ball that goes straight — every league bowler needs one",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/brunswick-tzone" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/brunswick-tzone" },
+          { "name": "Bowling.com", "go_path": "/go/bowlingcom/brunswick-tzone" }
+        ]
+      },
+      {
+        "id": "roto-grip-hustle",
+        "name": "Roto Grip Hustle",
+        "category": "Value reactive (light-medium oil)",
+        "price_band": "$100-$130",
+        "fit": "Medium rev rates, dry to medium oil",
+        "best_for": "Budget-conscious bowler wanting reactive performance without the premium price",
+        "merchants": [
+          { "name": "Amazon", "go_path": "/go/amazon/roto-grip-hustle" },
+          { "name": "BowlersMart", "go_path": "/go/bowlersmart/roto-grip-hustle" }
+        ]
+      }
+    ],
     "bowling-shoe-covers": [
       {
         "id": "storm-shoe-cover",

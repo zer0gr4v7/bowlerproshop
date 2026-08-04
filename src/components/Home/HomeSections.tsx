@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { ArrowRight, ChevronRight, Search, Sparkles } from "lucide-react";
+import { ArrowRight, ChevronRight, Search, Sparkles, ShoppingBag } from "lucide-react";
 import { guidePages } from "../../lib/site";
 import { trackEmailSignup } from "../../lib/analytics";
+import { trackEvent } from "../../lib/analytics";
+import { MERCHANT_INVENTORY } from "../../lib/affiliate";
+import ProductModule from "../ProductModule";
 
 const categoryChips = [
   { label: "Bowling Balls", href: "/gear/bowling-balls" },
@@ -13,6 +16,17 @@ const categoryChips = [
 ];
 
 export function Hero() {
+  const [searchQuery, setSearchQuery] = useState("");
+
+  function handleSearch(e: React.FormEvent) {
+    e.preventDefault();
+    const query = searchQuery.trim();
+    if (!query) return;
+    trackEvent({ event: "homepage_search", query });
+    const amazon = MERCHANT_INVENTORY.amazon;
+    window.open(amazon.getLink(query), "_blank", "noopener");
+  }
+
   return (
     <section className="relative min-h-[calc(100vh-76px)] overflow-hidden bg-navy-900">
       <img
@@ -41,7 +55,7 @@ export function Hero() {
 
           <form
             className="mb-6 max-w-2xl rounded-[18px] border-2 bg-[#080A10]/92 p-2 neon-blue-border"
-            onSubmit={(event) => event.preventDefault()}
+            onSubmit={handleSearch}
           >
             <label className="sr-only" htmlFor="homepage-gear-search">
               Search bowling gear
@@ -52,19 +66,40 @@ export function Hero() {
                 <input
                   id="homepage-gear-search"
                   type="search"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
                   placeholder="Search bowling balls, shoes, bags..."
                   className="w-full bg-transparent text-base text-bone-100 outline-none placeholder:text-slate-500"
                 />
               </div>
-              <Link
-                to="/find-my-gear"
+              <button
+                type="submit"
                 className="neon-red-button inline-flex min-h-14 items-center justify-center gap-2 rounded-full px-7 text-xs font-black uppercase tracking-[0.18em]"
               >
-                Find My Gear
-                <ArrowRight size={16} />
-              </Link>
+                <ShoppingBag size={16} />
+                Shop Now
+              </button>
             </div>
           </form>
+
+          <div className="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-600">Popular:</span>
+            <div className="flex flex-wrap gap-2">
+              {["Storm Phaze II", "Dexter Ricky IV", "2-ball roller bag", "bowling ball cleaner"].map((term) => (
+                <button
+                  key={term}
+                  onClick={() => {
+                    setSearchQuery(term);
+                    trackEvent({ event: "homepage_quick_search", query: term });
+                    window.open(MERCHANT_INVENTORY.amazon.getLink(term), "_blank", "noopener");
+                  }}
+                  className="rounded-full border border-teal-500/30 bg-teal-500/5 px-3 py-1.5 text-[11px] font-bold text-teal-400 hover:bg-teal-500/15 transition-colors"
+                >
+                  {term}
+                </button>
+              ))}
+            </div>
+          </div>
 
           <div className="flex max-w-3xl flex-wrap gap-3">
             {categoryChips.map((chip, index) => (
@@ -235,6 +270,33 @@ export function BrandStory() {
             </div>
           ))}
         </div>
+      </div>
+    </section>
+  );
+}
+
+export function TopPicks() {
+  return (
+    <section className="bg-[#020205] px-4 py-20 md:px-8">
+      <div className="container mx-auto">
+        <div className="mb-10 max-w-2xl">
+          <p className="mb-3 text-[10px] font-extrabold uppercase tracking-[0.32em] text-amber-400">
+            Top gear picks
+          </p>
+          <h2 className="headline text-5xl text-bone-100 md:text-6xl mb-4">
+            Compare and shop the essentials
+          </h2>
+          <p className="text-base leading-relaxed text-slate-500">
+            Hand-picked bowling balls, shoes, bags, and accessories — compare prices across Amazon, BowlersMart, and Bowling.com, then buy from the retailer you trust.
+          </p>
+        </div>
+        <ProductModule slug="bowling-balls" sourcePage="/" />
+        <div className="mt-8" />
+        <ProductModule slug="bowling-shoes-for-beginners" sourcePage="/" />
+        <div className="mt-8" />
+        <ProductModule slug="2-ball-bowling-bag" sourcePage="/" />
+        <div className="mt-8" />
+        <ProductModule slug="bowling-accessories-for-beginners" sourcePage="/" />
       </div>
     </section>
   );

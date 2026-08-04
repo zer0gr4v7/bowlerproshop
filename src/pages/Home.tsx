@@ -4,6 +4,7 @@ import {
   AudiencePathways, 
   DecisionEngineSection, 
   FeaturedGuides, 
+  TopPicks,
   BrandStory, 
   B2BSection, 
   EmailCapture 
@@ -16,6 +17,7 @@ export default function Home() {
       <AudiencePathways />
       <DecisionEngineSection />
       <FeaturedGuides />
+      <TopPicks />
       <BrandStory />
       <B2BSection />
       <EmailCapture />

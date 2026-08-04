@@ -1,7 +1,15 @@
 import { Link, useLocation } from "react-router-dom";
 import { ArrowRight, CheckCircle2, Search, ShieldCheck } from "lucide-react";
 import Layout from "../components/Layout";
+import ProductModule from "../components/ProductModule";
 import { findCategoryPage, guidePages } from "../lib/site";
+
+const CATEGORY_PRODUCT_MAP: Record<string, string> = {
+  "/gear/bowling-balls": "bowling-balls",
+  "/gear/bowling-shoes": "bowling-shoes-for-beginners",
+  "/gear/bowling-bags": "2-ball-bowling-bag",
+  "/gear/bowling-accessories": "bowling-accessories-for-beginners",
+};
 
 export default function Category() {
   const { pathname } = useLocation();
@@ -117,6 +125,10 @@ export default function Category() {
             </div>
           </div>
         </section>
+
+        {CATEGORY_PRODUCT_MAP[category.path] && (
+          <ProductModule slug={CATEGORY_PRODUCT_MAP[category.path]} sourcePage={category.path} />
+        )}
 
         <section className="px-4 py-14 md:px-8">
           <div className="container mx-auto flex flex-col gap-4 rounded-lg border border-amber-500/20 bg-amber-500/10 p-6 md:flex-row md:items-center md:justify-between">
