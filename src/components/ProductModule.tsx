@@ -1,5 +1,6 @@
 import productsData from "../data/products.json";
 import { trackEvent } from "../lib/analytics";
+import { MERCHANT_INVENTORY } from "../lib/affiliate";
 
 interface Merchant {
   name: string;
@@ -21,6 +22,24 @@ interface ProductsData {
 }
 
 const data = productsData as ProductsData;
+
+function resolveAffiliateUrl(merchant: string, productName: string): string {
+  const retailerKey = merchant.toLowerCase().replace(/[^a-z]/g, "");
+  const keyMap: Record<string, string> = {
+    amazon: "amazon",
+    bowlersmart: "bowlersmart",
+    bowlingcom: "bowlingcom",
+    bowlingballdotcom: "bowlingcom",
+    bowlerx: "bowlerx",
+    bowlingballdotcom: "bowlingcom",
+  };
+  const key = keyMap[retailerKey] || retailerKey;
+  const merchantConfig = MERCHANT_INVENTORY[key as keyof typeof MERCHANT_INVENTORY];
+  if (merchantConfig?.enabled) {
+    return merchantConfig.getLink(productName);
+  }
+  return "#";
+}
 
 function handleAffiliateClick(retailer: string, productId: string, sourcePage: string) {
   trackEvent({ event: "affiliate_click", retailer, product_id: productId, source_page: sourcePage });
@@ -58,17 +77,20 @@ export default function ProductModule({ slug, sourcePage }: { slug: string; sour
               <dd className="text-slate-300">{p.fit}</dd>
             </dl>
             <div className="mt-auto flex flex-wrap gap-2">
-              {p.merchants.map((m) => (
+              {p.merchants.map((m) => {
+                const href = resolveAffiliateUrl(m.name, p.name);
+                return (
                 <a
                   key={m.name}
-                  href={m.go_path}
+                  href={href}
                   rel="sponsored noopener nofollow"
                   onClick={() => handleAffiliateClick(m.name, p.id, sourcePage)}
                   className="inline-flex items-center gap-1 bg-amber-500 hover:bg-amber-400 text-navy-900 px-3 py-2 rounded text-[11px] font-bold uppercase tracking-wider"
                 >
                   Check {m.name}
                 </a>
-              ))}
+                );
+              })}
             </div>
           </li>
         ))}
