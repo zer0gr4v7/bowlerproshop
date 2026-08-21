@@ -249,29 +249,70 @@ export const generatedGuidePages: GuidePage[] = [
     "type": "article",
     "category": "Ball Buying",
     "difficulty": "Beginner",
-    "lastUpdated": "2026-05",
+    "lastUpdated": "2026-08",
     "monetization": "Affiliate-ready",
+    "author": "BowlerProShop Editorial",
     "title": "First Reactive Bowling Ball Guide | Beginner Hook Upgrade",
-    "description": "Choose a first reactive bowling ball by control, lane condition, hook potential, and when to involve a local pro shop.",
+    "description": "How to choose your first reactive bowling ball by control, coverstock, weight, and lane condition. Pick a readable benchmark ball, plan drilling with a pro shop, and keep a spare plan.",
     "ctaLabel": "Use the ball selector",
     "ctaPath": "/tools/bowling-ball-selector",
-    "intro": "Your first reactive bowling ball should help you learn shape without punishing every miss. The goal is readable motion, not the biggest hook on the shelf.",
+    "intro": "Your first reactive bowling ball should help you learn shape without punishing every miss. The goal is readable motion, not the biggest hook on the shelf. A reactive coverstock grips the lane and hooks where a plastic or urethane house ball cannot, which is why it is the standard upgrade once you bowl enough to want the ball to come back toward the pocket on its own.",
     "sections": [
       {
         "heading": "Prioritize control over headline hook",
-        "body": "A smooth benchmark reactive ball is usually easier to learn than an aggressive asymmetrical pearl. Look for predictable midlane read, usable continuation, and a surface that fits typical house-shot oil."
+        "body": "A smooth benchmark reactive ball is usually easier to learn than an aggressive asymmetrical pearl. Look for predictable midlane read, usable continuation through the pins, and a surface that fits typical house-shot oil. A ball that reads the lane early and finishes without snapping gives you room to make small mistakes, while a sharp, late-hooking ball exaggerates every release error.\n\nThe coverstock type drives most of this feel:\n\n- Solid reactive: reads earlier and smoother, good control on heavier house oil\n- Pearl reactive: stores energy longer and finishes sharper, more skid and snap\n- Hybrid reactive: blends the two for a versatile, all-condition benchmark\n\nFor a first reactive ball, a solid or hybrid in a controllable weight is the safest starting point."
       },
       {
         "heading": "Buy the weight you can repeat",
-        "body": "Most adult bowlers land between 14 and 16 pounds, but repeatable timing matters more than pride. If a ball changes your swing, balance, or release, it is too heavy for consistent league use."
+        "body": "Most adult bowlers land between 14 and 16 pounds, but repeatable timing matters more than pride. If a ball changes your swing, balance, or release, it is too heavy for consistent league use. A ball you can repeat shot after shot will outscore a heavier ball you cannot control. If you are between weights, choose the lighter one while you build a repeatable release."
+      },
+      {
+        "heading": "Match the ball to your lane condition",
+        "body": "House shots (the typical recreational league pattern) have plenty of oil in the middle and drier outside. A benchmark reactive ball reads that pattern well without over-hooking on the dry boards. If you bowl on sport or challenge patterns with less oil, you need a different surface and possibly a stronger layout, which is a conversation to have with a pro shop before buying."
       },
       {
         "heading": "Plan drilling before checkout",
-        "body": "Reactive balls need a proper fit, span, pitch, and layout. Treat online recommendations as a shortlist, then confirm the final drilling plan with a local pro shop before holes go in the ball."
+        "body": "Reactive balls come undrilled and need a proper fit, span, pitch, and layout. Treat online recommendations as a shortlist, then confirm the final drilling plan with a local pro shop before holes go in the ball. A good layout matched to your rev rate and axis tilt matters more than the ball brand. Buying a ball online and having it shipped to a driller is common, but the drilling plan should be decided with someone who has measured your hand."
       },
       {
         "heading": "Keep a spare plan",
-        "body": "A first reactive ball may hook too much at corner pins. Many new league bowlers pair it with a plastic spare ball or learn a reliable flattened release for single-pin spares."
+        "body": "A first reactive ball may hook too much at corner pins, especially as you learn. Many new league bowlers pair it with a plastic spare ball for 10-pins and single-pin spares, or learn a reliable flattened release that kills hook on demand. Planning for spares from day one keeps your scores climbing instead of stalling on the 10-pin."
+      },
+      {
+        "heading": "Budget for the full setup",
+        "body": "The ball is one part of the cost. A realistic first-reactive setup includes the ball, drilling, inserts, and a basic bag or towel. Spending the whole budget on the ball and skipping fit and accessories is a common mistake that hurts scores more than a slightly cheaper ball would. Use the ball selector to shortlist options in your budget before you buy."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a reactive bowling ball?",
+        "answer": "A reactive bowling ball has a porous urethane-based coverstock designed to grip the lane oil and hook. Unlike plastic house balls, reactive balls store energy and change direction toward the pocket, which is why they are the standard upgrade for bowlers who want the ball to come back on its own."
+      },
+      {
+        "question": "What weight should my first reactive bowling ball be?",
+        "answer": "Most adults use 14 to 16 pounds. Choose a weight you can repeat without changing your swing or balance. If you are between weights, go lighter while you build a repeatable release, since control beats top weight for new league bowlers."
+      },
+      {
+        "question": "Do I need a spare ball with my first reactive ball?",
+        "answer": "Not immediately, but most league bowlers add one. A reactive ball can over-hook at corner pins, so a plastic spare ball or a flattened release for single-pin spares keeps your conversion rate up. Plan for it, even if you buy the strike ball first."
+      },
+      {
+        "question": "Can I drill a bowling ball myself?",
+        "answer": "Fitting and drilling should be done by a pro shop. Span, pitch, and layout need to match your hand and release, and a poor fit can cause injury or wreck the ball. Buy the ball, but let a measured driller lay out and drill the holes."
+      },
+      {
+        "question": "Should I buy my first reactive ball online or at a pro shop?",
+        "answer": "Both work as long as a pro shop drills it. Buying online can widen your selection and price range, but decide the drilling layout with a driller who has measured your hand. Use the ball selector to shortlist options in your budget first."
+      }
+    ],
+    "sources": [
+      {
+        "label": "USBC Equipment Specifications",
+        "url": "https://bowl.com/equipment-specifications"
+      },
+      {
+        "label": "USBC Approved and Non-Approved Products",
+        "url": "https://bowl.com/equipment-specifications/approved,-non-approved-products"
       }
     ]
   },
@@ -418,29 +459,74 @@ export const generatedGuidePages: GuidePage[] = [
     "type": "article",
     "category": "Maintenance",
     "difficulty": "Beginner",
-    "lastUpdated": "2026-05",
+    "lastUpdated": "2026-08",
     "monetization": "Affiliate-ready",
+    "author": "BowlerProShop Editorial",
     "title": "Bowling Ball Cleaner and Towel Maintenance Guide",
-    "description": "Use bowling ball cleaner, microfiber towels, and simple post-set maintenance to keep ball reaction more consistent.",
+    "description": "How to clean a bowling ball with USBC-approved cleaner and microfiber towels. Wipe between shots, clean after every set, and know when to resurface so your ball reaction stays consistent.",
     "ctaLabel": "Compare maintenance gear",
-    "ctaPath": "/gear/bowling-accessories",
-    "intro": "Cleaner and towels do not replace skill or surface work, but they keep lane oil from hiding what the ball is actually doing.",
+    "ctaPath": "/best/bowling-ball-cleaner",
+    "intro": "Cleaner and towels do not replace skill or surface work, but they keep lane oil from hiding what the ball is actually doing. A reactive coverstock is porous by design: it absorbs oil in the front part of the lane and releases energy at the breakpoint. When those pores fill with oil, the ball skids longer, hooks less, and reads the lane differently than it did fresh. A simple wipe-and-clean routine reverses that before it becomes a permanent problem.",
     "sections": [
       {
         "heading": "Wipe during play",
-        "body": "Use a microfiber towel before each shot to remove visible oil and moisture. This keeps early-game and late-game reaction closer together."
+        "body": "Use a dry microfiber towel to wipe the ball before every shot during a set. This removes surface oil and moisture so your early-game and late-game reaction stay closer together. It takes about two seconds per shot and is the single highest-impact habit in ball maintenance.\n\nSince August 1, 2019, USBC rules allow only a dry towel during sanctioned competition. Liquid cleaners are not permitted between frames in competition, so do your spray cleaning before or after league play, not during it."
       },
       {
         "heading": "Clean after the set",
-        "body": "Approved cleaner works best when oil has not had time to sit. Follow product directions, check league legality, and avoid household chemicals that can damage coverstock."
+        "body": "Once your session ends, spray the ball with a USBC-approved cleaner and wipe it thoroughly with a clean section of microfiber. Approved cleaners work best when oil has not had time to sit and set into the coverstock. Follow the product directions for dwell time, then wipe completely dry before bagging the ball.\n\nA 30- to 60-second post-set clean protects the reaction you paid for. Skipping it lets oil soak deeper, which is why balls start hooking less weeks before they actually need resurfacing."
+      },
+      {
+        "heading": "Use USBC-approved cleaners only",
+        "body": "Not every cleaner is safe for a bowling ball. During sanctioned play, only cleaners on the USBC approved list are legal. Outside of competition you have more latitude, but you should still avoid products that dry out, swell, or leave residue on reactive coverstock.\n\n- USBC-approved spray cleaners (for example, Storm Reacta Foam, Tac-Up, and Lane Ghost) for routine post-set cleaning\n- USBC-approved wipes for convenience when a spray is impractical\n- Dedicated deep cleaners for periodic maintenance, not for between-game use\n\nDo not use rubbing alcohol, dish soap, acetone, glass cleaner, or household degreasers. Alcohol can dry out a reactive coverstock, dish soap leaves film, and solvents like acetone can damage the surface permanently."
       },
       {
         "heading": "Separate towels by job",
-        "body": "Use one towel for the ball and another for hands or shoes. Mixing oil, skin products, and approach dust can make every surface less predictable."
+        "body": "Use one towel for the ball and a different one for your hands or shoes. Mixing ball oil, skin products, and approach dust on the same towel makes every surface less predictable and shortens towel life. Fold microfiber towels in quarters so you always have a clean face to wipe with, and wash them without fabric softener, which coats the fibers and kills absorbency."
       },
       {
-        "heading": "Know when to resurface",
-        "body": "If a reactive ball stops reading the lane after many games, cleaner may not be enough. Ask a pro shop about oil extraction, surface adjustment, or resurfacing."
+        "heading": "Deep clean every 30 to 60 games",
+        "body": "When post-set cleaning stops restoring reaction, the ball needs a deeper clean. Apply a USBC-approved deep cleaner or degreaser, let it dwell for the time on the label, wipe it off completely, and repeat if the towel keeps pulling oil. A ball spinner helps with even coverage, but hand application works for most league bowlers. Deep cleaning removes oil that surface wiping misses and is the step most bowlers skip too long."
+      },
+      {
+        "heading": "Know when to resurface or de-oil",
+        "body": "If deep cleaning no longer restores reaction, the coverstock may be saturated or the surface may have glazed over. At that point, cleaner is not enough.\n\n- Resurfacing sands the ball back to a fresh grit and opens new pores, typically every 60 to 100 games or when cleaning alone stops working\n- Oil extraction (sometimes called baking or rejuvenation) pulls absorbed oil from deep in the coverstock\n- Surface adjustment changes how early or late the ball reads the lane without removing material\n\nAsk a pro shop which makes sense before spending on a replacement. A ball that feels dead often just needs surface work."
+      },
+      {
+        "heading": "Maintenance schedule at a glance",
+        "body": "- Every shot: dry microfiber wipe to remove surface oil\n- After every session: approved spray cleaner, wiped dry\n- Every 30 to 60 games: deep clean or degreaser pass\n- Every 60 to 100 games: evaluate resurface or oil extraction at a pro shop"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I use rubbing alcohol to clean my bowling ball?",
+        "answer": "It is not recommended. Rubbing alcohol can dry out a reactive coverstock and is not USBC-approved for use during competition. Use a purpose-made, USBC-approved bowling ball cleaner instead."
+      },
+      {
+        "question": "Can I clean my bowling ball during league play?",
+        "answer": "During sanctioned competition you may only use a dry towel. Liquid cleaners are allowed before or after competition, so do your spray cleaning at the ball return or at home, not between frames."
+      },
+      {
+        "question": "Does cleaning a bowling ball make it hook more?",
+        "answer": "Yes, when oil is the problem. Removing oil from the coverstock pores restores the ball's ability to grip the lane, which typically brings hook potential back toward its original level. If cleaning no longer helps, the ball likely needs resurfacing or oil extraction."
+      },
+      {
+        "question": "How often should I clean my bowling ball?",
+        "answer": "Wipe with a dry towel after every shot, spray-clean with an approved cleaner after every session, and deep-clean every 30 to 60 games or when reaction noticeably drops despite regular cleaning."
+      },
+      {
+        "question": "How do I know if my ball cleaner is USBC-approved?",
+        "answer": "Check the product label or the USBC approved products list on bowl.com. Most bowling-specific cleaners from major brands are approved, but the list is updated, so verify before using a cleaner in sanctioned play."
+      }
+    ],
+    "sources": [
+      {
+        "label": "USBC Approved and Non-Approved Products",
+        "url": "https://bowl.com/equipment-specifications/approved,-non-approved-products"
+      },
+      {
+        "label": "USBC Equipment Specifications",
+        "url": "https://bowl.com/equipment-specifications"
       }
     ]
   },
