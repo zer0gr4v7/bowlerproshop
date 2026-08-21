@@ -99,12 +99,15 @@ const utilityPages: Record<string, StaticPage> = {
     eyebrow: "Bowling ball selector",
     h1: "Match bowling balls by lane condition and skill",
     paragraphs: [
-      "Find bowling ball recommendations based on average, rev rate, lane condition, budget, and bowling goals.",
-      "Use this route for first reactive ball decisions, league-night upgrades, spare ball planning, and arsenal gaps.",
-      "The selector experience runs in the browser, while this static fallback keeps the route understandable for search crawlers, social preview systems, and affiliate-network review tools.",
+      "The BowlerProShop bowling ball selector shortlists balls from your average, rev rate, lane condition, budget, and bowling goals so you compare options that fit how you actually bowl instead of guessing from brand names.",
+      "Use it for first reactive ball decisions, league-night upgrades, spare ball planning, and arsenal gaps. Answer a few questions about how often you bowl, what oil you see, and what you want the ball to do, then compare matched recommendations side by side.",
+      "The selector weights control and readability for newer bowlers and hook potential for experienced bowlers, so a beginner does not get steered to an aggressive asymmetrical pearl and a tournament bowler does not get a plastic spare ball as a strike ball.",
+      "Treat the shortlist as a starting point. Confirm weight, span, pitch, and drilling layout with a local pro shop before holes go in the ball, since fit and layout matter more than the brand for repeatable reaction.",
+      "The interactive selector runs in your browser. This crawl-visible page preserves the topic, decision factors, and internal links so search engines, social previews, and affiliate reviewers can understand the route before the app hydrates.",
     ],
     links: [
       { href: "/guides/how-to-choose-a-bowling-ball", label: "How to choose a bowling ball" },
+      { href: "/guides/first-reactive-bowling-ball", label: "First reactive bowling ball guide" },
       { href: "/best/bowling-ball-cleaner", label: "Bowling ball cleaner guide" },
       { href: "/find-my-gear", label: "Find my gear" },
     ],

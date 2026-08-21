@@ -91,9 +91,9 @@ export interface CategoryPage extends PageSeo {
 export const pageSeo: Record<string, PageSeo> = {
   "/": {
     path: "/",
-    title: "Search Bowling Equipment Deals Online | BowlerProShop.com",
+    title: "Bowling Gear Finder | Compare Balls, Shoes & Bags by Fit | BowlerProShop",
     description:
-      "Search bowling equipment deals online and compare balls, shoes, bags, grips, tape, towels, and accessories by fit, lane condition, skill level, and budget.",
+      "Find the right bowling gear fast. Compare bowling balls, shoes, bags, grips, tape, and accessories by fit, lane condition, skill level, and budget with the BowlerProShop gear finder and ball selector.",
   },
   "/find-my-gear": {
     path: "/find-my-gear",
