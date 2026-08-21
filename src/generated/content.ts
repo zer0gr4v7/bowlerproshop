@@ -478,7 +478,7 @@ export const generatedGuidePages: GuidePage[] = [
       },
       {
         "heading": "Use USBC-approved cleaners only",
-        "body": "Not every cleaner is safe for a bowling ball. During sanctioned play, only cleaners on the USBC approved list are legal. Outside of competition you have more latitude, but you should still avoid products that dry out, swell, or leave residue on reactive coverstock.\n\n- USBC-approved spray cleaners (for example, Storm Reacta Foam, Tac-Up, and Lane Ghost) for routine post-set cleaning\n- USBC-approved wipes for convenience when a spray is impractical\n- Dedicated deep cleaners for periodic maintenance, not for between-game use\n\nDo not use rubbing alcohol, dish soap, acetone, glass cleaner, or household degreasers. Alcohol can dry out a reactive coverstock, dish soap leaves film, and solvents like acetone can damage the surface permanently."
+        "body": "Not every cleaner is safe or legal for a bowling ball. During sanctioned competition, only a dry towel is allowed between frames; liquid cleaners may be used before or after competition, and only products on the USBC approved cleaner list are permitted. Check the current USBC approved list before using any product in sanctioned play, because the list is updated.\n\n- USBC-approved spray cleaners (for example, Storm Reacta Foam, Tac-Up, and Lane Ghost) for routine post-set cleaning\n- Isopropyl rubbing alcohol, which is on the USBC approved list and is a low-cost option for cleaning before or after competition\n- USBC-approved wipes for convenience when a spray is impractical\n- Dedicated deep cleaners for periodic maintenance, not for between-game use\n\nAvoid products not on the approved list. Acetone and other solvents can damage the coverstock surface permanently, dish soap leaves film, and household degreasers may not be approved. When in doubt, check the USBC approved list and follow the ball and cleaner manufacturer's directions."
       },
       {
         "heading": "Separate towels by job",
@@ -500,7 +500,7 @@ export const generatedGuidePages: GuidePage[] = [
     "faqs": [
       {
         "question": "Can I use rubbing alcohol to clean my bowling ball?",
-        "answer": "It is not recommended. Rubbing alcohol can dry out a reactive coverstock and is not USBC-approved for use during competition. Use a purpose-made, USBC-approved bowling ball cleaner instead."
+        "answer": "Isopropyl rubbing alcohol is on the USBC approved cleaner list, so it is permitted for cleaning before or after competition. It is a low-cost option, though purpose-made bowling ball cleaners are formulated to be gentler on reactive coverstock. During sanctioned competition, use only a dry towel between frames. Check the current USBC approved list and follow the ball manufacturer's directions."
       },
       {
         "question": "Can I clean my bowling ball during league play?",
