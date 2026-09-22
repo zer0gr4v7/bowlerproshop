@@ -137,25 +137,98 @@ export const generatedGuidePages: GuidePage[] = [
     "type": "article",
     "category": "Maintenance",
     "difficulty": "Beginner",
-    "lastUpdated": "2026-05",
+    "lastUpdated": "2026-09",
     "monetization": "Affiliate-ready",
+    "author": "BowlerProShop Editorial",
     "title": "Best Bowling Ball Cleaner | Keep Reaction Consistent",
-    "description": "Choose bowling ball cleaner by lane oil cleanup, reactive resin maintenance, league legality, and when deeper resurfacing is needed.",
+    "description": "Choose bowling ball cleaner by USBC approval status, formula type, lane oil removal, and when deeper resurfacing is needed instead.",
     "ctaLabel": "Choose a ball by lane condition",
     "ctaPath": "/tools/bowling-ball-selector",
-    "intro": "Cleaner is not magic, but it keeps oil and dirt from hiding what your ball is actually doing on the lane.",
+    "intro": "Reactive resin bowling balls absorb lane oil through the pores of the coverstock. That oil builds up with every game and gradually changes how the ball reads the lane — flattening the hook arc, pushing the breakpoint earlier, and reducing continuation through the pins. A good bowling ball cleaner removes surface oil and belt marks after each session. It does not restore a worn coverstock on its own, and it does not create hook that was not there before. What it does is keep your equipment behaving the way it was drilled to behave.",
     "sections": [
       {
-        "heading": "Clean after bowling",
-        "body": "Wiping during play and cleaning after the set helps reactive resin maintain a more consistent surface. Follow the cleaner label and league rules."
+        "heading": "Why reactive coverstocks need regular cleaning",
+        "body": "Polyurethane (reactive resin) coverstocks are porous by design. Manufacturers engineer that porosity to create friction and traction on the lane. Storm, Motiv, Roto Grip, Brunswick, Hammer, and every other major ball maker produce reactive solids, pearls, and hybrids specifically because oil absorption and friction are what create predictable backend motion.\n\nThe problem is that oil absorbed during play does not evaporate on its own. Lane conditioner (typically a mineral oil blend) soaks into the coverstock during your shots and stays there. Over dozens of games, this oil migrates deeper into the ball and starts to change reaction. Most bowlers notice the symptom before they identify the cause: the ball hooks less, reads earlier than expected, or loses continuation after the breakpoint. Cleaning after every session prevents that buildup from compounding game over game.\n\nUrethane and polyester balls also benefit from cleaning, but they are less porous and absorb oil more slowly. For a spare ball or entry-level urethane, wiping with a dry microfiber towel after each session is often enough. Regular cleaner use matters most for performance reactive balls used in league or practice."
       },
       {
-        "heading": "Know when cleaner is not enough",
-        "body": "If reaction fades after many games, the ball may need oil extraction, surface adjustment, or resurfacing from a pro shop instead of another spray bottle."
+        "heading": "USBC rules on cleaner use: before, during, and after competition",
+        "body": "Understanding when you can and cannot use cleaner is essential for league bowlers. USBC Rule 18 governs ball surface alterations in certified competition.\n\nSince August 1, 2019, no liquid cleaner may be applied to a bowling ball once certified competition has started. Competition begins when any bowler in your league or tournament throws the first scored ball. This means you cannot use cleaner between games, between frames, or after pulling a fresh ball from your bag once play has begun.\n\nBefore competition starts (including practice and warm-up), any USBC-approved cleaner may be used freely. After competition ends, any USBC-approved cleaner may be used. If your ball picks up a foreign substance during competition that cannot be removed with a dry towel, you may request permission from a league officer or tournament official to use an approved cleaner. Cleaning without that permission can result in ball removal from competition and potential forfeit.\n\nEvery cleaner on BowlersMart and most bowling retail sites carries the USBC-approved label. All approved cleaners must appear on the official approved cleaners list maintained at BOWL.com. If a product is not on that list, do not use it in sanctioned play. The USBC tests for two things: whether the cleaner changes ball hardness by more than two durometer points, and whether it leaves a surface residue that alters the FTIR spectrum by more than five percent.\n\nThe practical takeaway: clean your ball before you leave for league night or before the first ball of practice. Do not pull a spray bottle out during scored games."
       },
       {
-        "heading": "Avoid unsupported claims",
-        "body": "Do not expect a cleaner to create hook by itself. It supports the coverstock and surface that are already on the ball."
+        "heading": "Formula types: spray, foam, and gel",
+        "body": "Bowling ball cleaners come in three main formats. Each has a different use case.\n\nSpray cleaners are the most common format. They are fast to apply, easy to travel with, and work well for routine post-session surface cleaning. A few sprays and a wipe with a microfiber towel removes light oil and belt marks from most coverstocks. Storm Reacta Clean is a spray formulation designed specifically for reactive resin balls. It restores some tackiness to the coverstock and evaporates quickly. One 8-ounce bottle provides roughly 10 to 12 full-ball cleanings when used at two sprays per ball.\n\nFoam cleaners apply as a thick foam that stays where it is placed on the ball. Because the foam clings to the surface and does not run, it has more dwell time than a spray — the cleaner sits against the coverstock longer before wiping, which helps lift oil from the upper pore layer more effectively. Storm Reacta Foam is the most widely stocked foam option. It dispenses from a pump nozzle, produces no overspray, and is less likely to land on your slide sole or bag interior. The foam format is economical: you use less product per cleaning compared to a spray applied to the whole ball.\n\nGel cleaners use a thick, viscous formula with degreasing agents that penetrate more aggressively than spray or foam. Motiv Power Gel Clean uses a low-VOC formulation with natural solvents described by Motiv as biodegradable. The gel is applied with a small amount on a towel, worked into the surface in a circular motion. Because the gel sits in surface texture longer, it works well for post-session deep cleaning of reactive solids and pearls after high-volume practice blocks. Motiv Power Gel Clean is USBC tested and approved for use before and after competition."
+      },
+      {
+        "heading": "Fit check: which format is right for your routine",
+        "body": "Match the format to how and when you clean.\n\nIf you clean at the lanes between practice blocks, before league games, or in your bag on the way home: a spray is the most practical choice. It is fast, produces a consistent result, and is easy to keep in a side pocket.\n\nIf you bowl multiple sets in a session and your reactive ball is your primary scoring piece: foam or gel after the session will do more than a spray alone. The additional dwell time helps pull oil that a quick spray-and-wipe does not address.\n\nIf you bowl four or more games per week on a reactive ball: consider a light spray wipe after every session and a deeper gel clean once per week or every three to four sessions. This prevents oil migration to deeper layers where surface cleaning alone has limited effect.\n\nPolyester spare balls do not need anything more than a dry towel. Entry-level urethane balls may benefit from an occasional spray clean, but do not need the gel treatment unless you notice visible oil tracking."
+      },
+      {
+        "heading": "What cleaner cannot do",
+        "body": "Cleaner removes surface oil and some embedded oil from the upper coverstock. It does not:\n\n- Restore a ball that needs resurfacing to a specific grit level\n- Remove oil that has migrated to deeper layers after hundreds of games\n- Change the reaction profile the ball was manufactured and drilled to produce\n- Fix hook loss caused by coverstock wear, track flattening, or mismatched surface for your lane condition\n\nIf a ball that was hooking predictably two months ago now skids through the heads and rolls out early regardless of how often you clean it, the ball likely needs oil extraction or resurfacing from a pro shop. Oil extraction (deep baking) removes oil absorbed deep into the coverstock. Resurfacing sands the entire surface back to a specified grit level and restores a consistent finish. Neither of these is achievable with a bottle of cleaner.\n\nA ball that has never been cleaned and has been used for 100 or more games may need extraction before regular cleaning becomes effective again. For most league bowlers bowling once or twice a week, consistent cleaning after every session prevents the ball from reaching that point."
+      },
+      {
+        "heading": "The microfiber towel matters too",
+        "body": "The quality and condition of your towel affects how well cleaning works. A dry, high-quality microfiber towel removes more oil from the surface per wipe than a cotton rag or paper towel. Using a towel already saturated with cleaner from a prior use reduces its effectiveness and can technically violate USBC rules if used during competition. Keep a separate dry towel for between-frame wipes during competition. Use a dedicated cleaning towel during your post-session routine.\n\nIf you clean your ball before competition using a cleaner-dampened towel, that same towel cannot be used on the ball during competition. Use a dry towel for in-game ball return wipes."
+      },
+      {
+        "heading": "When to get the ball inspected at a pro shop",
+        "body": "Take your reactive ball to a pro shop when any of the following are true: reaction has noticeably changed and cleaning does not restore it, the surface shows visible scuff rings or track marks that do not wipe off, the ball feels tacky in a way it did not before, or the ball is more than 50 to 75 games into regular league use with no pro shop maintenance. Pro shops can resurface, extract oil, and adjust the surface grit to match your current lane conditions — maintenance that no bottle of cleaner replaces.\n\nIf you are unsure whether your ball needs maintenance or a different surface, the bowling ball selector tool on this site can help match a ball to your lane type and rev rate. The guide on how to clean a bowling ball covers step-by-step maintenance technique including baking, resurfacing, and surface prep by condition."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I use bowling ball cleaner between games during league?",
+        "answer": "No. Under USBC Rule 18 (effective August 1, 2019), liquid cleaners cannot be applied to a bowling ball once certified competition has started. You may clean your ball before the first scored ball is thrown, during practice, and after competition ends. If a foreign substance appears during competition that a dry towel cannot remove, ask a league officer for permission before using any cleaner."
+      },
+      {
+        "question": "Does USBC-approved mean the cleaner works well?",
+        "answer": "Not exactly. USBC approval means the cleaner has been tested to confirm it does not soften the ball beyond the allowed two-point durometer threshold and does not leave a residue that alters the surface chemistry. Approval is a compliance mark, not a performance rating. Actual cleaning effectiveness varies by formula, coverstock type, and how much oil is present."
+      },
+      {
+        "question": "How often should I clean my bowling ball?",
+        "answer": "After every session for a reactive resin ball used in league or regular practice. A light spray-and-wipe after each use prevents incremental oil buildup. A deeper gel or foam clean once per week or every three to four sessions adds a second layer of maintenance. Do not skip cleaning for multiple sessions and then try to recover the surface with one deep clean — that usually indicates it is time for a pro shop extraction."
+      },
+      {
+        "question": "Is foam cleaner better than spray?",
+        "answer": "For routine maintenance, both work. Foam has more contact time with the coverstock because it clings rather than running off, which gives it an edge on heavier oil removal. Spray is faster to apply and easier to use quickly before league play. If you use one product, a spray covers most situations. If you bowl frequently on a reactive ball, having both formats gives you a lighter daily option and a deeper periodic option."
+      },
+      {
+        "question": "Can I use household cleaners like isopropyl alcohol?",
+        "answer": "Isopropyl alcohol is not on the USBC approved cleaners list and should not be used in sanctioned competition. Some pro shops use solvents in controlled resurfacing contexts, but for routine maintenance stick to products specifically formulated for bowling ball coverstocks. Products not on the approved list can potentially alter ball hardness or surface chemistry in ways that damage the coverstock over time."
+      },
+      {
+        "question": "Will cleaning my ball make it hook more?",
+        "answer": "No. Cleaner removes oil from the surface, which restores the ball to its baseline reaction. If a clean ball hooks less than it did when new, the issue is likely oil absorption deeper in the coverstock, track wear, or a surface condition change — not dirt on the surface. A clean ball performs closer to how it was drilled; it does not perform better than its coverstock, layout, and surface are designed to perform."
+      },
+      {
+        "question": "What is the difference between cleaner and polish?",
+        "answer": "Cleaner removes oil and dirt from the coverstock. Polish (or shine) adds a protective gloss coat that fills in fine surface scratches and increases skid through the front part of the lane. Polish is used when you want a smoother, higher-gloss finish — typically for dryer lane conditions or when a ball is reading too early. Cleaner is always the first step before polish. Do not polish a ball with oil still on the surface."
+      }
+    ],
+    "sources": [
+      {
+        "label": "USBC Equipment Specifications and Certifications Manual — Cleaners",
+        "url": "https://bowl.com/getmedia/08ef148d-c0e4-4e00-9e0d-855ba4729ad5/equipment-specs-manual.pdf"
+      },
+      {
+        "label": "USBC Playing Rules — Rule 18, Ball Surface Alterations",
+        "url": "https://bowl.com/getmedia/cabf49db-8cc5-4ce4-abc0-dfca1a1d7706/071724_USBC-Playing-Rules.pdf"
+      },
+      {
+        "label": "Storm Reacta Foam — product page, stormbowling.com",
+        "url": "https://www.stormbowling.com/storm-reacta-foam"
+      },
+      {
+        "label": "Motiv Power Gel Clean — product page, motivbowling.com",
+        "url": "https://www.motivbowling.com/products/accessories/cleaners/power-gel-clean.html"
+      },
+      {
+        "label": "Storm Reacta Foam and Motiv Power Gel listings — BowlersMart",
+        "url": "https://www.bowlersmart.com/shop/bowling-gear/bowling-accessories/bowling-ball-polish-and-cleaner/"
+      },
+      {
+        "label": "Motiv ball maintenance guide — motivbowling.com",
+        "url": "https://www.motivbowling.com/resources/ball-maintenance.html"
       }
     ]
   },
